@@ -23,17 +23,6 @@ jobs:
           branch: gh-pages
           file_pattern: "."
 
-      - name: Ensure gh-pages branch exists
-        run: |
-          git remote set-url origin https://github.com/${{ github.repository }}.git
-          if ! git ls-remote --exit-code --heads origin gh-pages; then
-            git checkout --orphan gh-pages
-            git reset --hard
-            git commit --allow-empty -m "Initialize gh-pages branch"
-            git push origin gh-pages
-            git checkout main
-          fi
-
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
         with:
