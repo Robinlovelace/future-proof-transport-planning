@@ -4,7 +4,7 @@
     "href": "infrastructure-classification.html",
     "title": "Classifying OSM Data",
     "section": "",
-    "text": "Test"
+    "text": "remotes::install_github(\"nptscot/osmactive\")\n\nUsing github PAT from envvar GITHUB_PAT. Use `gitcreds::gitcreds_set()` and unset GITHUB_PAT in .Renviron (or elsewhere) if you want to use the more secure git credential store instead.\n\n\nDownloading GitHub repo nptscot/osmactive@HEAD\n\n\nlibgeos    (NA -&gt; 3.11.1-2) [CRAN]\nosmextract (NA -&gt; 0.5.1   ) [CRAN]\ngeos       (NA -&gt; 0.2.4   ) [CRAN]\n\n\nInstalling 3 packages: libgeos, osmextract, geos\n\n\nInstalling packages into '/usr/local/lib/R/site-library'\n(as 'lib' is unspecified)\n\n\n── R CMD build ─────────────────────────────────────────────────────────────────\n* checking for file ‘/tmp/RtmpYpjKsd/remotesff5e3e5ab2/nptscot-osmactive-528dde1/DESCRIPTION’ ... OK\n* preparing ‘osmactive’:\n* checking DESCRIPTION meta-information ... OK\n* checking for LF line-endings in source and make files and shell scripts\n* checking for empty or unneeded directories\n* building ‘osmactive_0.0.0.9000.tar.gz’\n\n\nInstalling package into '/usr/local/lib/R/site-library'\n(as 'lib' is unspecified)"
   },
   {
     "objectID": "slides.html#about-me-and-my-work",
