@@ -16,6 +16,21 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
 
+      - name: Set up Git
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Initialize gh-pages branch
+        run: |
+          if ! git ls-remote --exit-code --heads origin gh-pages; then
+            git checkout --orphan gh-pages
+            git reset --hard
+            git commit --allow-empty -m "Initialize gh-pages branch"
+            git push origin gh-pages
+            git checkout main
+          fi
+
       # - name: Set up Quarto
       #   uses: quarto-dev/quarto-actions/setup@v2
 
@@ -33,5 +48,3 @@ jobs:
         uses: quarto-dev/quarto-actions/publish@v2
         with:
           target: gh-pages
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
