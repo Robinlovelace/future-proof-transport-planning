@@ -24,11 +24,10 @@ library(tibble)
 
 # Introduction {background-color="#40666e"}
 
-
 ## About me and my work
 
-::: columns
-::: {.column width="40%"}
+::::::: columns
+:::: {.column width="40%"}
 ::: incremental
 -   Professor of Transport Data Science
 -   Work with government
@@ -36,9 +35,9 @@ library(tibble)
 -   R package developer and data scientist
 -   New methods for more reproducible, data-driven and participatory transport planning
 :::
-:::
+::::
 
-::: {.column width="60%"}
+:::: {.column width="60%"}
 ::: {layout="[[1,2], [1]]"}
 ![](https://r.geocompx.org/images/cover.png)
 
@@ -46,8 +45,8 @@ library(tibble)
 
 ![](images/paste-17.png)
 :::
-:::
-:::
+::::
+:::::::
 
 ------------------------------------------------------------------------
 
@@ -96,22 +95,22 @@ Reproducibility is a continuous variable [@peng2011]
 
 ## Why make your research (more) reproducible?
 
-::: columns
+:::::: columns
 ::: {.column width="80%"}
 ![](images/paste-36.png)
 
 Source: @raff2023
 :::
 
-::: {.column width="20%"}
+:::: {.column width="20%"}
 ::: incremental
 -   Scientific rigour
 -   Benefits to your future self
 -   Benefits to others
 -   Huge increase in potential for impact
 :::
-:::
-:::
+::::
+::::::
 
 ## Why *not* make your research reproducible?
 
@@ -156,7 +155,7 @@ The facets show the data in spatial grid available from the LAEI, facet Am and a
 
 ## International comparisons
 
-::: columns
+::::: columns
 ::: {.column width="70%"}
 ![](images/paste-25.png)
 :::
@@ -164,7 +163,7 @@ The facets show the data in spatial grid available from the LAEI, facet Am and a
 ::: {.column width="30%"}
 **Premise**: A key reason for reproducibility is *generalisability*.
 :::
-:::
+:::::
 
 # Open source software and open access tools
 
@@ -174,7 +173,7 @@ The facets show the data in spatial grid available from the LAEI, facet Am and a
 
 ## Don't reinvent the wheel
 
-::: columns
+::::: columns
 ::: {.column width="40%"}
 ### Before
 
@@ -210,11 +209,11 @@ n_per_hour |>
 
 ![](images/paste-2.png)
 :::
-:::
+:::::
 
 ## Re-using existing tools
 
-::: columns
+::::: columns
 ::: {.column width="30%"}
 ```{r}
 #| eval: false
@@ -242,7 +241,7 @@ od_large_interzonal_sf |>
 ::: {.column width="70%"}
 ![](images/paste-4.png)
 :::
-:::
+:::::
 
 ## Zooming in
 
@@ -260,7 +259,7 @@ plot(distritos_salamanca)
 
 ## Subsetting from the database
 
-::: columns
+::::: columns
 ::: {.column width="30%"}
 ```{r}
 #| eval: false
@@ -288,11 +287,11 @@ od_salamanca_sf |>
 ::: {.column width="70%"}
 ![](https://github.com/Robinlovelace/spanishoddata/raw/main/man/figures/README-salamanca-plot-1.png)
 :::
-:::
+:::::
 
 ## Spatial disaggregation
 
-::: columns
+::::: columns
 ::: {.column width="30%"}
 ```{r}
 #| eval: false
@@ -315,9 +314,16 @@ od_jittered |>
 :::
 
 ::: {.column width="70%"}
-![](https://github.com/Robinlovelace/spanishoddata/raw/main/man/figures/README-disaggregated-1.png)
+
+![](images/paste-14.png)
 :::
-:::
+:::::
+
+## Building/linking-up-with communities
+
+The package has been onboarded to rOpenSpain public benefit data science community (see [ropenspain.github.io](https://ropenspain.github.io/spanishoddata/))
+
+![](images/paste-13.png)
 
 ## How does spatial disaggregation (jittering) work?
 
@@ -341,7 +347,7 @@ Source: <https://github.com/dabreegster/odjitter>
 
 <!-- ![](images/paste-9.png) -->
 
-::: columns
+::::: columns
 ::: {.column width="40%"}
 "In essence ‘open access’ goes beyond ‘open source’ in that users are not only given the option of viewing (potentially indecipherable) source code, but are encouraged to do so, with measures taken in the software itself, and the community that builds it, to make it more user-friendly.""
 
@@ -351,7 +357,7 @@ Source: [@lovelace2020]
 ::: {.column width="60%"}
 ![](images/paste-10.png)
 :::
-:::
+:::::
 
 ## From methods/software development to impact
 
@@ -390,9 +396,8 @@ How could/should/will demand shift in the future?
 
 ## Stages of open and reproducible science
 
-::: {.columns}
+::::: columns
 ::: {.column width="30%"}
-
 1.  Open access to the publications
 
 2.  Open access to sample (synthetic if sensitive) data
@@ -402,23 +407,12 @@ How could/should/will demand shift in the future?
 4.  Fully reproducible paper published with documentation
 
 5.  Project deployed in tool for non-specialist use
-
-
 :::
+
 ::: {.column width="70%"}
-
 ![](images/paste-12.png)
-
 :::
-:::
-
-## Future-proofing workflows
-
-### Avoid stranded assets (tech debt)
-
-![](images/paste-11.png)
-
-Source: @semieniuk2022
+:::::
 
 ## Conclusions
 
@@ -440,6 +434,14 @@ Source: @semieniuk2022
 
 ::: {#refs}
 :::
+
+## Future-proofing workflows Appendix
+
+### Avoid stranded assets (tech debt)
+
+![](images/paste-11.png)
+
+Source: @semieniuk2022
 
 ## Appendix: What if the machines *do* take over? {#sec-appendix}
 
@@ -470,7 +472,7 @@ Nezhurina (N.D.)
 
 ## Environmental costs of 'AI'
 
-::: columns
+::::: columns
 ::: {.column width="55%"}
 ![](images/paste-29.png)
 
@@ -482,7 +484,7 @@ IT sector was already poised to become a decarbonisation bottleneck
 
 ![](images/paste-30.png)
 :::
-:::
+:::::
 
 Source: [theregister.com](https://www.theregister.com/2024/05/16/microsoft_co2_emissions/) and Gupta et al. (2021) <!-- @gupta2021 -->
 
