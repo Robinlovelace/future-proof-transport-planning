@@ -2,4 +2,7 @@
 title: Classifying OSM Data
 ---
 
-Test
+
+```{r}
+remotes::install_github("nptscot/osmactive")
+```
