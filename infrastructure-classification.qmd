@@ -1,5 +1,7 @@
 ---
 title: Classifying OSM Data
+execute: 
+  cache: true
 ---
 
 
@@ -9,6 +11,7 @@ remotes::install_cran("osmextract")
 ```
 
 ```{r}
+library(osmactive)
 library(dplyr)
 library(tmap)
 tmap_mode("view")
@@ -25,16 +28,46 @@ study_area_line = stplanr::line2points(study_area_route) |>
   mutate(id = 1:2) |>
   od::points_to_odl() |>
   slice(2)
-study_area_buffer = sf::st_buffer(study_area_line, dist = 1000) |>
+study_area = sf::st_buffer(study_area_line, dist = 1000) |>
   rmapshaper::ms_simplify()
+study_area = sf::st_union(study_area)
 ```
 
 
 ```{r}
 #| label: study_area
 #| fig-cap: Study area
-tm_shape(study_area_buffer) +
+tm_shape(study_area) +
   tm_borders() +
   tm_shape(study_area_route) +
   tm_lines(lwd = 2, col = "red")
+```
+
+
+```{r}
+osm = get_travel_network(
+    study_area,
+    boundary = study_area,
+    boundary_type = "clipsrc"
+)
+cycle_net = get_cycling_network(osm)
+drive_net = get_driving_network(osm)
+cycle_net = get_cycling_network(osm)
+drive_net = get_driving_network_major(osm)
+cycle_net = distance_to_road(cycle_net, drive_net)
+cycle_net = classify_cycle_infrastructure(cycle_net)
+m = plot_osm_tmap(cycle_net)
+```
+
+
+```{r}
+m
+```
+
+And as a static image:
+
+```{r}
+#| label: cycle_net_static
+tmap_mode("plot")
+m
 ```
