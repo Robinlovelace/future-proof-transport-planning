@@ -5,4 +5,21 @@ title: Classifying OSM Data
 
 ```{r}
 remotes::install_github("nptscot/osmactive")
+remotes::install_cran("osmextract")
+```
+
+```{r}
+library(tmap)
+tmap_mode("view")
+```
+
+
+```{r}
+study_area_route = stplanr::route(
+    from = "Glasgow Queen Street",
+    to = "University of Glasgow",
+    route_fun = stplanr::route_osrm
+) 
+study_area_buffer = sf::st_buffer(study_area_route, dist = 500)
+qtm(study_area_buffer)
 ```
