@@ -1,19 +1,9 @@
-# reproducible-slides-repo-template
+# Future proof transport planning
 
-Flexible repo template for reproducible slides with Quarto and continuous deployment via GitHub actions
+Code and slides for a seminar on future proof transport planning. 
 
-See https://robinlovelace.github.io/reproducible-slides-repo-template/slides for the content, the most important parts of which are:
+See more info in link below:
 
-- You can use this repo as a template for your own reproducible slides
-- Quarto is a powerful tool for creating reproducible documents
-- Set-up GitHub pages with:
-
-```sh
-quarto publish gh-pages
-```
-
-- Use [GitHub actions](.github/workflows/) to automatically deploy your slides to GitHub pages
-
-## Reproducible slide projects build with this
-
-- Deploying cross-language in high impact projects, auto-updated and deployed with every commit, with R and Python code running and generating results shown in the slides: https://github.com/Robinlovelace/cross_language_projects
+- [Blurb and introduction](https://www.robinlovelace.net/talk/tools-for-future-proof-transport-planning-open-source-open-access-reproducible-and-collaborative/)
+- [Slides and website](https://robinlovelace.github.io/future-proof-transport-planning/)
+- [Template repo](https://github.com/Robinlovelace/reproducible-slides-repo-template) on which this builds
