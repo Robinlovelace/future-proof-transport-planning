@@ -1,9 +1,9 @@
 project:
   type: website
-  render:
-    - index.qmd 
-    - slides.qmd
-    - paper.qmd
+  # render:
+  #   - index.qmd 
+  #   - slides.qmd
+  #   - paper.qmd
 
 website:
   navbar:
@@ -16,3 +16,5 @@ website:
         href: slides.qmd
       # - text: "Paper"
       #   href: paper.qmd 
+      - text: "Infrastructure classification"
+        href: infrastructure-classification.qmd
