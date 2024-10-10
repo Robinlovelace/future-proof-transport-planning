@@ -1,5 +1,19 @@
 [
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Reproducible slides with Quarto and continuous deployment via GitHub actions",
+    "section": "",
+    "text": "The materials here support a talk at the Spatial Data Science across Languages (SDSL) conference 2024.\nSee the slides here and in the dropdown menu above.\nSee the source code at github.com/robinlovelace."
+  },
+  {
+    "objectID": "paper.html",
+    "href": "paper.html",
+    "title": "",
+    "section": "",
+    "text": "This is a placeholder for a paper."
+  },
+  {
     "objectID": "slides.html#about-me-and-my-work",
     "href": "slides.html#about-me-and-my-work",
     "title": "Tools for Future-Proof Transport Planning",
@@ -236,19 +250,5 @@
     "title": "Tools for Future-Proof Transport Planning",
     "section": "Factoring-in build-out of AI data centres",
     "text": "Factoring-in build-out of AI data centres"
-  },
-  {
-    "objectID": "paper.html",
-    "href": "paper.html",
-    "title": "",
-    "section": "",
-    "text": "This is a placeholder for a paper."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Reproducible slides with Quarto and continuous deployment via GitHub actions",
-    "section": "",
-    "text": "The materials here support a talk at the Spatial Data Science across Languages (SDSL) conference 2024.\nSee the slides here and in the dropdown menu above.\nSee the source code at github.com/robinlovelace."
   }
 ]
