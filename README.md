@@ -1,4 +1,6 @@
-# Future proof transport planning
+---
+title: Future proof transport planning
+---
 
 Code and slides for a seminar on future proof transport planning. 
 
