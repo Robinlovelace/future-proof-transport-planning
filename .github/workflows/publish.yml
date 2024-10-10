@@ -24,7 +24,7 @@ jobs:
 
       - name: Initialize gh-pages branch
         run: |
-          git remote add origin https://github.com/<your-username>/<your-repo>.git
+          git remote add origin https://github.com/Robinlovelace/future-proof-transport-planning.git
           if ! git ls-remote --exit-code --heads origin gh-pages; then
             git checkout --orphan gh-pages
             git reset --hard
