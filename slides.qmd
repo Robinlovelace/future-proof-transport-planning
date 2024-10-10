@@ -14,7 +14,7 @@ author:
     email: r.lovelace@leeds.ac.uk
     affiliations: University of Leeds, Active Travel England
 date: 2024-10-10
-bibliography: refs_tartu.bib
+bibliography: references.bib
 ---
 
 ```{r}
