@@ -24,6 +24,7 @@ library(tibble)
 
 # Introduction {background-color="#40666e"}
 
+
 ## About me and my work
 
 ::: columns
