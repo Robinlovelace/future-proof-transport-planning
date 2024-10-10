@@ -1,6 +1,6 @@
 ---
-title: Reproducible research and open tools for future-proof transport planning
-subtitle: Mobile Tartu 2024
+title: Tools for Future-Proof Transport Planning
+subtitle: Open Source, Open Access, Reproducible, and Collaborative
 format: 
   # Install plugin with quarto install extension grantmcdermott/quarto-revealjs-clean
   clean-revealjs:
@@ -9,11 +9,11 @@ html-math-method:
   method: mathjax
   url: "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
 author:
-  - name: Robin Lovelace
+  - name: Seminar hosted by the University of Glasgow's UBDC<br>Robin Lovelace
     orcid: 0000-0001-5679-6536
     email: r.lovelace@leeds.ac.uk
     affiliations: University of Leeds, Active Travel England
-date: last-modified
+date: 2024-10-10
 bibliography: refs_tartu.bib
 ---
 
@@ -29,10 +29,10 @@ library(tibble)
 ::: columns
 ::: {.column width="40%"}
 ::: incremental
--   Associate Professor of Transport Data Science
+-   Professor of Transport Data Science
 -   Work with government
 -   Focus on impact
--   Software developer and data scientist
+-   R package developer and data scientist
 -   New methods for more reproducible, data-driven and participatory transport planning
 :::
 :::
