@@ -9,6 +9,7 @@ remotes::install_cran("osmextract")
 ```
 
 ```{r}
+library(dplyr)
 library(tmap)
 tmap_mode("view")
 ```
@@ -19,7 +20,21 @@ study_area_route = stplanr::route(
     from = "Glasgow Queen Street",
     to = "University of Glasgow",
     route_fun = stplanr::route_osrm
-) 
-study_area_buffer = sf::st_buffer(study_area_route, dist = 500)
-qtm(study_area_buffer)
+)
+study_area_line = stplanr::line2points(study_area_route) |>
+  mutate(id = 1:2) |>
+  od::points_to_odl() |>
+  slice(2)
+study_area_buffer = sf::st_buffer(study_area_line, dist = 1000) |>
+  rmapshaper::ms_simplify()
+```
+
+
+```{r}
+#| label: study_area
+#| fig-cap: Study area
+tm_shape(study_area_buffer) +
+  tm_borders() +
+  tm_shape(study_area_route) +
+  tm_lines(lwd = 2, col = "red")
 ```
