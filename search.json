@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Reproducible slides with Quarto and continuous deployment via GitHub actions",
+    "title": "Future proof transport planning",
     "section": "",
-    "text": "The materials here support a talk at the Spatial Data Science across Languages (SDSL) conference 2024.\nSee the slides here and in the dropdown menu above.\nSee the source code at github.com/robinlovelace."
+    "text": "Code and slides for a seminar on future proof transport planning.\nSee more info in link below:\n\nBlurb and introduction\nSlides and website\nTemplate repo on which this builds"
   },
   {
     "objectID": "paper.html",
