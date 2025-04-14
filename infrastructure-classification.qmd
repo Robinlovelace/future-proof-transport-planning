@@ -20,8 +20,8 @@ tmap_mode("view")
 
 ```{r}
 study_area_route = stplanr::route(
-    from = "Glasgow Queen Street",
-    to = "University of Glasgow",
+    from = "Glasgow Queen Street, Glasgow",
+    to = "University of Glasgow, Glasgow",
     route_fun = stplanr::route_osrm
 )
 study_area_line = stplanr::line2points(study_area_route) |>
