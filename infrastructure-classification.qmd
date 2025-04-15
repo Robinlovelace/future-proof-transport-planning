@@ -6,7 +6,8 @@ execute:
 
 
 ```{r}
-remotes::install_github("nptscot/osmactive")
+#| result: hide
+remotes::install_github("nptscot/osmactive", dependencies = TRUE)
 remotes::install_cran("osmextract")
 ```
 
