@@ -19,10 +19,33 @@ bibliography: references.bib
 
 ```{r}
 #| include: false
-library(tibble)
+library(tidyverse)
 ```
 
 # Introduction {background-color="#40666e"}
+
+## Where I'm from
+
+::::::: columns
+
+:::: {.column width="40%"}
+
+```{r}
+#| include: false
+locations = read_csv(here::here("locations.csv"))
+locations |>
+  knitr::kable()
+```
+
+::::
+
+:::: {.column width="60%"}
+
+...
+
+::::
+
+:::::::
 
 ## About me and my work
 
