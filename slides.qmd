@@ -31,7 +31,6 @@ library(tidyverse)
 :::: {.column width="40%"}
 
 ```{r}
-#| include: false
 locations = read_csv("locations.csv")
 locations |>
   knitr::kable()
