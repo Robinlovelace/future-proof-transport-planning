@@ -1,6 +1,5 @@
 ---
-title: Tools for Future-Proof Transport Planning
-subtitle: Open Source, Open Access, Reproducible, and Collaborative
+title: Data Science for Future-Proof Transport Planning
 format: 
   # Install plugin with quarto install extension grantmcdermott/quarto-revealjs-clean
   clean-revealjs:
@@ -9,22 +8,25 @@ html-math-method:
   method: mathjax
   url: "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
 author:
-  - name: Seminar hosted by the University of Glasgow's UBDC<br>Robin Lovelace
+  - name: Inaugural Lecture<br>Robin Lovelace
     orcid: 0000-0001-5679-6536
     email: r.lovelace@leeds.ac.uk
-    affiliations: University of Leeds, Active Travel England
-date: 2024-10-10
+    affiliations: University of Leeds
+date: 2025-05-08
 bibliography: references.bib
 ---
 
 ```{r}
 #| include: false
 library(tidyverse)
+remotes::install_cran("rmapshaper")
+library(tmap)
+tmap_mode("view")
 ```
 
 # Introduction {background-color="#40666e"}
 
-## Where I'm from
+## My journey
 
 ::::::: columns
 
@@ -40,7 +42,19 @@ locations |>
 
 :::: {.column width="60%"}
 
-...
+```{r}
+locations_lonlat = sapply(locations$address, stplanr::geo_code)
+locations_lonlat_df = locations_lonlat |>
+  t() |>
+  as.data.frame() |>
+  setNames(c("lon", "lat"))
+locations_sfc = sf::st_as_sf(locations_lonlat_df, coords = c("lon", "lat"), crs = 4326)
+locations_sf = sf::st_sf(
+  locations,
+  geometry = locations_sfc$geometry
+)
+qtm(locations_sf)
+```
 
 ::::
 
