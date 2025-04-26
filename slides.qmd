@@ -95,6 +95,8 @@ tm_shape(locations_sf_until) +
 
 ![](images/paste-15.png)
 
+![](images/paste-16.png)
+
 Photo of Weobley High School / IMD
 
 ## Bristol
