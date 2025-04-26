@@ -19,48 +19,107 @@ bibliography: references.bib
 ```{r}
 #| include: false
 library(tidyverse)
+library(sf)
 remotes::install_cran("rmapshaper")
 library(tmap)
 tmap_mode("view")
 ```
 
-# Introduction {background-color="#40666e"}
+## Contents
+
+Past
+
+**Present**
+
+**FUTURE**
+
+# Past {background-color="#40666e"}
 
 ## My journey
 
-::::::: columns
-
-:::: {.column width="40%"}
-
 ```{r}
+#| include: false
 locations = read_csv("locations.csv")
+# locations
+# # A tibble: 7 × 2
+#   address    year
+#   <chr>     <dbl>
+# 1 Hereford   1985
+# 2 Bristol    2004
+# 3 Salamanca  2006
+# 4 Bristol    2007
+# 5 York       2008
+# 6 Sheffield  2009
+# 7 Leeds      2013
 locations |>
   knitr::kable()
 ```
 
-::::
-
-:::: {.column width="60%"}
-
 ```{r}
-locations_lonlat = sapply(locations$address, stplanr::geo_code)
-locations_lonlat_df = locations_lonlat |>
-  t() |>
-  as.data.frame() |>
-  setNames(c("lon", "lat"))
-locations_sfc = sf::st_as_sf(locations_lonlat_df, coords = c("lon", "lat"), crs = 4326)
-locations_sf = sf::st_sf(
-  locations,
-  geometry = locations_sfc$geometry
-)
-qtm(locations_sf)
+if (!file.exists("locations.geojson")) {
+  locations = read_csv("locations.csv")
+  locations_lonlat = sapply(locations$address, stplanr::geo_code)
+  locations_lonlat_df = data.frame(
+    lon = runif(nrow(locations), -2, 2),
+    lat = runif(nrow(locations), 40, 55)
+  )
+  locations_lonlat_df = locations_lonlat |>
+    t() |>
+    as.data.frame() |>
+    setNames(c("lon", "lat"))
+  locations_sfc = sf::st_as_sf(locations_lonlat_df, coords = c("lon", "lat"), crs = 4326)
+  locations_sf = sf::st_sf(
+    locations,
+    geometry = locations_sfc$geometry
+  )
+  sf::write_sf(locations_sf, "locations.geojson")
+} else {
+  locations_sf = read_sf("locations.geojson")
+}
+locations_sf_until = locations_sf |>
+  mutate(
+    until = c(as.character(year[-1]), ""),
+    Years = paste0(address, ": ", year, " - ", until)
+  )
 ```
 
-::::
+```{r}
+#| label: fig-locations-1
+tm_shape(locations_sf_until) +
+  tm_text("Years")
+```
 
-:::::::
+## Hereford
 
-## About me and my work
+## Pool Cottage
+
+![](images/paste-15.png)
+
+Photo of Weobley High School / IMD
+
+## Bristol
+
+## Salamanca
+
+## York
+
+## Sheffield
+
+## Leeds
+
+## Sydney
+
+## Chapeltown
+
+## Chaco
+
+# Present
+
+## Family
+
+Family is the foundation on which many good things build.
+
+## Work
 
 ::::::: columns
 :::: {.column width="40%"}
@@ -84,42 +143,7 @@ qtm(locations_sf)
 ::::
 :::::::
 
-------------------------------------------------------------------------
-
-## Contents
-
-::: incremental
--   Definitions: what is reproducible research and future proof transport planning?
--   Reproducible research and open tools
--   Future-proof transport planning
-:::
-
-## Definitions
-
-> a tool is a ...
-> piece of software or online service; a model ...
-> is method or process that is expounded in theoretical terms; software is ...
-> instructions that underlies digital tools @lovelace2021
-
-**Reproducible research**: Other people can re-generate your results
-
-. . .
-
-**Open source software**: Software that is free to use and modify
-
-. . .
-
-**Open access tools**: Web applications for transport planning that are based on open source software, that anyone can use
-
-. . .
-
-**Open access data**: Data that is freely available to use and share
-
-. . .
-
-**Future-proof** work that is likely to be useful in the medium-term future
-
-<!-- (10 years+), regardless of (political, economic, technological) changes -->
+## What is Transport Data Science?
 
 ## (I-)Reproducibility
 
@@ -350,7 +374,6 @@ od_jittered |>
 :::
 
 ::: {.column width="70%"}
-
 ![](images/paste-14.png)
 :::
 :::::
