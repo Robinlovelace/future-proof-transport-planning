@@ -51,18 +51,42 @@ locations = read_csv("locations.csv")
 # 5 York       2008
 # 6 Sheffield  2009
 # 7 Leeds      2013
-locations |>
+locations_until = locations |>
+  mutate(
+    until = c(as.character(year[-1]), ""),
+    Years = paste0(address, ": ", year, " - ", until)
+  )
+locations_salamanca = locations_until |>
+  filter(address == "Salamanca")
+locations_minimal = locations |>
+  filter(address != "Salamanca") |>
+  filter(year != 2007) |>
+  mutate(
+    until = c(as.character(year[-1]), ""),
+    Years = paste0(address, ": ", year, " - ", until)
+  )
+locations_updated = bind_rows(
+  locations_salamanca,
+  locations_minimal
+) |>
+  arrange(year) |>
+  transmute(
+    Location = address,
+    Years
+  )
+locations_updated |>
   knitr::kable()
+readr::write_csv(locations_updated, "locations_updated.csv")
 ```
 
 ```{r}
 if (!file.exists("locations.geojson")) {
-  locations = read_csv("locations.csv")
-  locations_lonlat = sapply(locations$address, stplanr::geo_code)
-  locations_lonlat_df = data.frame(
-    lon = runif(nrow(locations), -2, 2),
-    lat = runif(nrow(locations), 40, 55)
-  )
+  locations = read_csv("locations_updated.csv")
+  locations_lonlat = sapply(locations$Location, stplanr::geo_code)
+  # locations_lonlat_df = data.frame(
+  #   lon = runif(nrow(locations), -2, 2),
+  #   lat = runif(nrow(locations), 40, 55)
+  # )
   locations_lonlat_df = locations_lonlat |>
     t() |>
     as.data.frame() |>
@@ -72,40 +96,95 @@ if (!file.exists("locations.geojson")) {
     locations,
     geometry = locations_sfc$geometry
   )
-  sf::write_sf(locations_sf, "locations.geojson")
+  sf::write_sf(locations_sf, "locations.geojson", delete_dsn = TRUE)
 } else {
   locations_sf = read_sf("locations.geojson")
 }
-locations_sf_until = locations_sf |>
-  mutate(
-    until = c(as.character(year[-1]), ""),
-    Years = paste0(address, ": ", year, " - ", until)
-  )
 ```
 
 ```{r}
 #| label: fig-locations-1
-tm_shape(locations_sf_until) +
+#| fig.cap: "Places I have lived for 1+ years"
+tm_shape(locations_sf) + 
+  tm_dots("lightblue", size = 1) +
   tm_text("Years")
 ```
 
 ## Hereford
 
-## Pool Cottage
+## Pool Cottage (1932)
 
 ![](images/paste-15.png)
 
+## Pool Cottage (2025)
+
 ![](images/paste-16.png)
+
+## Pool Cottage in the garden
+
+![](images/paste-37.png)
+
+## Weobley primary school
+
+![](images/paste-38.png)
 
 Photo of Weobley High School / IMD
 
 ## Bristol
 
-## Salamanca
+![](images/paste-39.png)
 
-## York
+## Bristol 2025
+
+![](images/paste-40.png)
+
+## Salamanca on Erasmus exchange (2006-2007)
+
+![](images/paste-55.png)
+
+## York (2008-2009)
+
+-   Scholarship to study Environmental Science and Management
+
+```{bash}
+#| eval: false
+# Install imagemagick on ubuntu
+sudo apt install imagemagick
+# Crop the top 15% off images/paste-51.png
+mogrify -gravity North -crop 100%x85%+0+0 images/paste-51.png
+```
+
+::::: columns
+::: {.column width="50%"}
+![](images/paste-52.png)
+
+Influential book "SEWTHA", freely available at [withouthotair.com](https://www.withouthotair.com/) [@mackay2009]
+:::
+
+::: {.column width="50%"}
+![](images/paste-54.png)
+
+Blog post in [The Oil Drum](http://theoildrum.com/node/5976)
+:::
+:::::
 
 ## Sheffield
+
+![](images/paste-41.png)
+
+![](images/paste-43.png)
+
+![![](images/paste-46.png)](images/paste-45.png)
+
+![](images/paste-47.png)
+
+![Cargo bike and bike trailers in action, June 2010](images/paste-49.png)
+
+![](images/paste-48.png)
+
+## My thesis
+
+![](images/paste-42.png)
 
 ## Leeds
 
@@ -206,8 +285,7 @@ Source: @raff2023
 
 ![](images/paste-24.png)
 
-Illustration of the ClockBoard zoning system used to visualize a geographically dependendent phenomena: air quality, measured in mass of PM10 particles, measured in micrograms per cubic meter, from the London Atmospheric Emissions Inventory (LAEI).
-The facets show the data in spatial grid available from the LAEI, facet Am and aggregated to London boroughs B, to ClockBoard zones covering all the input data shown in C, and ClockBoard zones clipped by the administrative boundary of Greater London in D.
+Illustration of the ClockBoard zoning system used to visualize a geographically dependendent phenomena: air quality, measured in mass of PM10 particles, measured in micrograms per cubic meter, from the London Atmospheric Emissions Inventory (LAEI). The facets show the data in spatial grid available from the LAEI, facet Am and aggregated to London boroughs B, to ClockBoard zones covering all the input data shown in C, and ClockBoard zones clipped by the administrative boundary of Greater London in D.
 
 ## Application: road traffic casualties
 
@@ -434,8 +512,7 @@ Source: screenshot from development version of open source and open access Netwo
 
 ![](images/atip-poly.gif)
 
-Source: [acteng.github.io](https://acteng.github.io/atip/pipeline/scheme.html?authority=LAD_Leeds&schema=pipeline&style=streets#13.6/53.82231/-1.51541).
-Credit: Dustin Carlino (Alan Turing Institute and Active Travel England) and colleagues in ATE.
+Source: [acteng.github.io](https://acteng.github.io/atip/pipeline/scheme.html?authority=LAD_Leeds&schema=pipeline&style=streets#13.6/53.82231/-1.51541). Credit: Dustin Carlino (Alan Turing Institute and Active Travel England) and colleagues in ATE.
 
 # Future-proof transport planning {background-image="images/paste-35.png" background-opacity="0.5"}
 
