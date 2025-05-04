@@ -33,6 +33,18 @@ Past
 
 **FUTURE**
 
+::: notes
+
+-   Past: my journey and the people who made it possible
+    - Taking the liberty of talking about my life
+-   Present: what I do
+-   Future: what I think is important
+-   Future-proofing transport planning
+-   Future-proofing workflows
+-   Future-proofing transport planning
+
+:::
+
 # Past {background-color="#40666e"}
 
 ## My journey
@@ -110,11 +122,21 @@ tm_shape(locations_sf) +
   tm_text("Years")
 ```
 
-## Hereford
+## Hereford {.center background-image="images/paste-15.png"}
 
-## Pool Cottage (1932)
+### Pool Cottage (1932)
 
-![](images/paste-15.png)
+::: notes
+
+- Hard to know how far to go back
+- Where I was born seems a good place to start
+- It wasn't this house, but was in the same location
+- My mum and dad moved to Herefordshire in 1979
+- I was born in 1985, six years after they moved but the house still wasn't 100% finished, I may have inherited some of my dad's time optimism
+- Huge thanks to them for physically building a strong foundation for me
+
+:::
+
 
 ## Pool Cottage (2025)
 
@@ -168,15 +190,23 @@ Blog post in [The Oil Drum](http://theoildrum.com/node/5976)
 :::
 :::::
 
-## Sheffield
+# Sheffield {.center background-image="images/paste-41.png" background-opacity="0.5" background-size="70%"}
 
-![](images/paste-41.png)
+## a
 
 ![](images/paste-43.png)
 
-![![](images/paste-46.png)](images/paste-45.png)
+# b
 
+![](images/paste-45.png)
+
+## c
+![](images/paste-46.png)
+
+## d
 ![](images/paste-47.png)
+
+## e
 
 ![Cargo bike and bike trailers in action, June 2010](images/paste-49.png)
 
