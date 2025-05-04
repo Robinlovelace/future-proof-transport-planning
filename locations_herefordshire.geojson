@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "locations_herefordshire",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Location": "Pool Cottage" }, "geometry": { "type": "Point", "coordinates": [ -2.92915, 52.1277199 ] } },
+{ "type": "Feature", "properties": { "Location": "Weobley school, Herefordshire" }, "geometry": { "type": "Point", "coordinates": [ -2.8686466, 52.1550192 ] } },
+{ "type": "Feature", "properties": { "Location": "Hereford" }, "geometry": { "type": "Point", "coordinates": [ -2.7151735, 52.0553813 ] } },
+{ "type": "Feature", "properties": { "Location": "Leominster, Herefordshire" }, "geometry": { "type": "Point", "coordinates": [ -2.7375333, 52.2273558 ] } },
+{ "type": "Feature", "properties": { "Location": "Hay on Wye" }, "geometry": { "type": "Point", "coordinates": [ -3.1243132, 52.0744595 ] } }
+]
+}

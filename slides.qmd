@@ -122,15 +122,13 @@ tm_shape(locations_sf) +
   tm_text("Years")
 ```
 
-## Hereford {.center background-image="images/paste-15.png"}
-
-### Pool Cottage (1932)
+# {.center background-image="images/paste-15.png"}
 
 ::: notes
 
 - Hard to know how far to go back
-- Where I was born seems a good place to start
-- It wasn't this house, but was in the same location
+- Where I was born seems a good place to start, in Norton Canon
+- It wasn't this house, but was in the same location, in a photo taken in 1932. I have no idea how my dad got this photo, but it was a great find!
 - My mum and dad moved to Herefordshire in 1979
 - I was born in 1985, six years after they moved but the house still wasn't 100% finished, I may have inherited some of my dad's time optimism
 - Huge thanks to them for physically building a strong foundation for me
@@ -142,9 +140,47 @@ tm_shape(locations_sf) +
 
 ![](images/paste-16.png)
 
-## Pool Cottage in the garden
+## Herefordshire
 
-![](images/paste-37.png)
+```{r}
+#| label: fig-locations-hereford
+if (!file.exists("locations_herefordshire.geojson")) {
+Location = c(
+  "HR4 7BP",
+  "Weobley school, Herefordshire",
+  "Hereford",
+  "Leominster, Herefordshire",
+  "Hay on Wye"
+  )
+locations_lonlat = sapply(Location, stplanr::geo_code)
+locations_lonlat_df = locations_lonlat |>
+  t() |>
+  as.data.frame() |>
+  setNames(c("lon", "lat"))
+locations_herefordshire = sf::st_as_sf(locations_lonlat_df, coords = c("lon", "lat"), crs = 4326)
+Location[1] = "Pool Cottage"
+locations_herefordshire$Location = Location
+sf::write_sf(locations_herefordshire, "locations_herefordshire.geojson", delete_dsn = TRUE)
+} else {
+  locations_herefordshire = read_sf("locations_herefordshire.geojson")
+}
+qtm(locations_herefordshire) + 
+  tm_dots("lightblue", size = 1) +
+  tm_text("Location")
+```
+
+::: notes
+
+- Norton Canon is a village with around 200 people
+- It had a school, shop, pub church, post office and garage within walking distance when I was growing up but now only has two of those
+- It's remote, roughly equidistant from Hereford, Leominster and Hay on Wye
+- Although Hay on Wye is physically closer, it always felt further away because we rarely went that way, but you could feel the Welsh influence in the Black Mountains
+
+:::
+
+<!-- ## Pool Cottage in the garden
+
+![](images/paste-37.png) -->
 
 ## Weobley primary school
 
