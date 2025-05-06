@@ -259,18 +259,18 @@
     "text": "My journey\n\n\n\n\n\n\n\n\nFigure 1: Places I have lived for 1+ years"
   },
   {
+    "objectID": "slides.html#where-im-from",
+    "href": "slides.html#where-im-from",
+    "title": "Data Science for Future-Proof Transport Planning",
+    "section": "Where I’m from",
+    "text": "Where I’m from\n\n\n\n\n\n\n\n\nFigure 2: Places where I spent a lot of time in Herefordshire\n\n\n\n\n\n\nNorton Canon is a village with around 200 people\nIt had a school, shop, pub church, post office and garage within walking distance when I was growing up but now only has two of those\nIt’s remote, roughly equidistant from Hereford, Leominster and Hay on Wye\nAlthough Hay on Wye is physically closer, it always felt further away because we rarely went that way, but you could feel the Welsh influence in the Black Mountains\nI went to school in Weobley, which is a village with a primary school and secondary school, and a few shops, but not much else\nI went to Hereford Sixth Form College in what felt like a big city at the time, but is less than a 10th the size of Leeds with around 50,000 people\nI worked in the leisure centre in Leominster and played lots of sport"
+  },
+  {
     "objectID": "slides.html#pool-cottage-2025",
     "href": "slides.html#pool-cottage-2025",
     "title": "Data Science for Future-Proof Transport Planning",
     "section": "Pool Cottage (2025)",
-    "text": "Pool Cottage (2025)\n\n\n\nHard to know how far to go back\nWhere I was born seems a good place to start, in Norton Canon\nIt wasn’t this house, but was in the same location, in a photo taken in 1932. I have no idea how my dad got this photo, but it was a great find!\nMy mum and dad moved to Herefordshire in 1979\nI was born in 1985, six years after they moved but the house still wasn’t 100% finished, I may have inherited some of my dad’s time optimism\nHuge thanks to them for physically building a strong foundation for me"
-  },
-  {
-    "objectID": "slides.html#key-places-in-herefordshire",
-    "href": "slides.html#key-places-in-herefordshire",
-    "title": "Data Science for Future-Proof Transport Planning",
-    "section": "Key places in Herefordshire",
-    "text": "Key places in Herefordshire\n\n\n\n\n\n\n\n\nFigure 2: Places where I spent a lot of time in Herefordshire\n\n\n\n\n\n\nNorton Canon is a village with around 200 people\nIt had a school, shop, pub church, post office and garage within walking distance when I was growing up but now only has two of those\nIt’s remote, roughly equidistant from Hereford, Leominster and Hay on Wye\nAlthough Hay on Wye is physically closer, it always felt further away because we rarely went that way, but you could feel the Welsh influence in the Black Mountains\nI went to school in Weobley, which is a village with a primary school and secondary school, and a few shops, but not much else\nI went to Hereford Sixth Form College in what felt like a big city at the time, but is less than a 10th the size of Leeds with around 50,000 people\nI worked in the leisure centre in Leominster and played lots of sport"
+    "text": "Pool Cottage (2025)"
   },
   {
     "objectID": "slides.html#engineers-without-borders-ewb",
@@ -308,6 +308,27 @@
     "text": "Spatial microsimulation"
   },
   {
+    "objectID": "slides.html#side-projects",
+    "href": "slides.html#side-projects",
+    "title": "Data Science for Future-Proof Transport Planning",
+    "section": "Side projects",
+    "text": "Side projects\n\nWork on the economic benefits of cycling nationwide with James Woodcock and Fiona Crawford (Crawford and Lovelace 2015)"
+  },
+  {
+    "objectID": "slides.html#propensity-to-cycle-tool",
+    "href": "slides.html#propensity-to-cycle-tool",
+    "title": "Data Science for Future-Proof Transport Planning",
+    "section": "Propensity to Cycle Tool",
+    "text": "Propensity to Cycle Tool"
+  },
+  {
+    "objectID": "slides.html#from-routes-to-networks",
+    "href": "slides.html#from-routes-to-networks",
+    "title": "Data Science for Future-Proof Transport Planning",
+    "section": "From routes to networks",
+    "text": "From routes to networks\n\n\nTest\n\nTEST"
+  },
+  {
     "objectID": "slides.html#sydney",
     "href": "slides.html#sydney",
     "title": "Data Science for Future-Proof Transport Planning",
@@ -327,13 +348,6 @@
     "title": "Data Science for Future-Proof Transport Planning",
     "section": "Chaco",
     "text": "Chaco"
-  },
-  {
-    "objectID": "slides.html#family",
-    "href": "slides.html#family",
-    "title": "Data Science for Future-Proof Transport Planning",
-    "section": "Family",
-    "text": "Family\nFamily is the foundation on which many good things build."
   },
   {
     "objectID": "slides.html#work",
@@ -522,7 +536,7 @@
     "href": "slides.html#references",
     "title": "Data Science for Future-Proof Transport Planning",
     "section": "References",
-    "text": "References\n\n\nBoyce, David E., and Huw C. W. L. Williams. 2015. Forecasting Urban Travel: Past, Present and Future. Edward Elgar Publishing.\n\n\nLovelace, Robin. 2021. “Open Source Tools for Geographic Analysis in Transport Planning.” Journal of Geographical Systems, January. https://doi.org/10.1007/s10109-020-00342-2.\n\n\nLovelace, Robin, Rosa Félix, and Dustin Carlino. 2022. “Jittering: A Computationally Efficient Method for Generating Realistic Route Networks from Origin-Destination Data.” Findings, April, 33873. https://doi.org/10.32866/001c.33873.\n\n\nLovelace, Robin, John Parkin, and Tom Cohen. 2020. “Open Access Transport Models: A Leverage Point in Sustainable Transport Planning.” Transport Policy 97 (October): 47–54. https://doi.org/10.1016/j.tranpol.2020.06.015.\n\n\nLovelace, Robin, Martijn Tennekes, and Dustin Carlino. 2022. “ClockBoard: A Zoning System for Urban Analysis.” Journal of Spatial Information Science, no. 24 (June): 63–85. https://doi.org/10.5311/JOSIS.2022.24.172.\n\n\nMacKay, David J C. 2009. Sustainable Energy Without the Hot Air. Cambridge: UIT.\n\n\nPeng, Roger D. 2011. “Reproducible Research in Computational Science.” Science (New York, N.y.) 334 (6060): 1226–27. https://doi.org/10.1126/science.1213847.\n\n\nRaff, Edward. 2023. “Does the Market of Citations Reward Reproducible Work?” In, 8996. ACM REP ’23. New York, NY, USA: Association for Computing Machinery. https://doi.org/10.1145/3589806.3600041.\n\n\nSemieniuk, Gregor, Philip B. Holden, Jean-Francois Mercure, Pablo Salas, Hector Pollitt, Katharine Jobson, Pim Vercoulen, Unnada Chewpreecha, Neil R. Edwards, and Jorge E. Viñuales. 2022. “Stranded Fossil-Fuel Assets Translate to Major Losses for Investors in Advanced Economies.” Nature Climate Change 12 (6): 532–38. https://doi.org/10.1038/s41558-022-01356-y."
+    "text": "References\n\n\nBoyce, David E., and Huw C. W. L. Williams. 2015. Forecasting Urban Travel: Past, Present and Future. Edward Elgar Publishing.\n\n\nCrawford, F., and R. Lovelace. 2015. “The Benefits of Getting England Cycling.” http://www.ctc.org.uk/sites/default/files/1501_fcrawford-rlovelace_economic-cycle-reformatted.pdf.\n\n\nLovelace, Robin. 2021. “Open Source Tools for Geographic Analysis in Transport Planning.” Journal of Geographical Systems, January. https://doi.org/10.1007/s10109-020-00342-2.\n\n\nLovelace, Robin, Rosa Félix, and Dustin Carlino. 2022. “Jittering: A Computationally Efficient Method for Generating Realistic Route Networks from Origin-Destination Data.” Findings, April, 33873. https://doi.org/10.32866/001c.33873.\n\n\nLovelace, Robin, Nick Malleson, Kirk Harland, and Mark Birkin. 2014. “Geotagged Tweets to Inform a Spatial Interaction Model: A Case Study of Museums.” https://doi.org/10.48550/ARXIV.1403.5118.\n\n\nLovelace, Robin, John Parkin, and Tom Cohen. 2020. “Open Access Transport Models: A Leverage Point in Sustainable Transport Planning.” Transport Policy 97 (October): 47–54. https://doi.org/10.1016/j.tranpol.2020.06.015.\n\n\nLovelace, Robin, Martijn Tennekes, and Dustin Carlino. 2022. “ClockBoard: A Zoning System for Urban Analysis.” Journal of Spatial Information Science, no. 24 (June): 63–85. https://doi.org/10.5311/JOSIS.2022.24.172.\n\n\nMacKay, David J C. 2009. Sustainable Energy Without the Hot Air. Cambridge: UIT.\n\n\nPeng, Roger D. 2011. “Reproducible Research in Computational Science.” Science (New York, N.y.) 334 (6060): 1226–27. https://doi.org/10.1126/science.1213847.\n\n\nRaff, Edward. 2023. “Does the Market of Citations Reward Reproducible Work?” In, 8996. ACM REP ’23. New York, NY, USA: Association for Computing Machinery. https://doi.org/10.1145/3589806.3600041.\n\n\nSemieniuk, Gregor, Philip B. Holden, Jean-Francois Mercure, Pablo Salas, Hector Pollitt, Katharine Jobson, Pim Vercoulen, Unnada Chewpreecha, Neil R. Edwards, and Jorge E. Viñuales. 2022. “Stranded Fossil-Fuel Assets Translate to Major Losses for Investors in Advanced Economies.” Nature Climate Change 12 (6): 532–38. https://doi.org/10.1038/s41558-022-01356-y."
   },
   {
     "objectID": "slides.html#future-proofing-workflows-appendix",
