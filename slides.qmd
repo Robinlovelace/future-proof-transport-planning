@@ -228,21 +228,23 @@ Blog post in [The Oil Drum](http://theoildrum.com/node/5976)
 
 # Sheffield {.center background-image="images/paste-41.png" background-opacity="0.5" background-size="70%"}
 
-## a
+<!-- ## a
 
-![](images/paste-43.png)
+![](images/paste-43.png) -->
 
-# b
+## Engineers Without Borders (EWB)
+
+![](images/paste-47.png)
+
+# Wind turbine group
 
 ![](images/paste-45.png)
 
-## c
+## Finished wind turbine
+
 ![](images/paste-46.png)
 
-## d
-![](images/paste-47.png)
-
-## e
+## Interest in sustainable transport
 
 ![Cargo bike and bike trailers in action, June 2010](images/paste-49.png)
 

@@ -2,7 +2,7 @@
 title: Future proof transport planning
 ---
 
-Code and slides for a seminar on future proof transport planning. 
+Code and slides for my inaugural lecture on future proof transport planning.  
 
 See more info in link below:
 
