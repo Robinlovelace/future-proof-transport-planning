@@ -34,15 +34,13 @@ Past
 **FUTURE**
 
 ::: notes
-
 -   Past: my journey and the people who made it possible
-    - Taking the liberty of talking about my life
+    -   Taking the liberty of talking about my life
 -   Present: what I do
 -   Future: what I think is important
 -   Future-proofing transport planning
 -   Future-proofing workflows
 -   Future-proofing transport planning
-
 :::
 
 # Past {background-color="#40666e"}
@@ -122,28 +120,28 @@ tm_shape(locations_sf) +
   tm_text("Years")
 ```
 
-# {.center background-image="images/paste-15.png"}
+# Herefordshire (1985-2004) {.center background-image="images/paste-15.png" background-opacity="0.5"}
 
-::: notes
-
-- Hard to know how far to go back
-- Where I was born seems a good place to start, in Norton Canon
-- It wasn't this house, but was in the same location, in a photo taken in 1932. I have no idea how my dad got this photo, but it was a great find!
-- My mum and dad moved to Herefordshire in 1979
-- I was born in 1985, six years after they moved but the house still wasn't 100% finished, I may have inherited some of my dad's time optimism
-- Huge thanks to them for physically building a strong foundation for me
-
-:::
-
+Photo taken: 1932 in Norton Canon, Herefordshire
 
 ## Pool Cottage (2025)
 
 ![](images/paste-16.png)
 
-## Herefordshire
+::: notes
+-   Hard to know how far to go back
+-   Where I was born seems a good place to start, in Norton Canon
+-   It wasn't this house, but was in the same location, in a photo taken in 1932. I have no idea how my dad got this photo, but it was a great find!
+-   My mum and dad moved to Herefordshire in 1979
+-   I was born in 1985, six years after they moved but the house still wasn't 100% finished, I may have inherited some of my dad's time optimism
+-   Huge thanks to them for physically building a strong foundation for me
+:::
+
+## Key places in Herefordshire
 
 ```{r}
 #| label: fig-locations-hereford
+#| fig.cap: "Places where I spent a lot of time in Herefordshire"
 if (!file.exists("locations_herefordshire.geojson")) {
 Location = c(
   "HR4 7BP",
@@ -170,37 +168,64 @@ qtm(locations_herefordshire) +
 ```
 
 ::: notes
-
-- Norton Canon is a village with around 200 people
-- It had a school, shop, pub church, post office and garage within walking distance when I was growing up but now only has two of those
-- It's remote, roughly equidistant from Hereford, Leominster and Hay on Wye
-- Although Hay on Wye is physically closer, it always felt further away because we rarely went that way, but you could feel the Welsh influence in the Black Mountains
-
+-   Norton Canon is a village with around 200 people
+-   It had a school, shop, pub church, post office and garage within walking distance when I was growing up but now only has two of those
+-   It's remote, roughly equidistant from Hereford, Leominster and Hay on Wye
+-   Although Hay on Wye is physically closer, it always felt further away because we rarely went that way, but you could feel the Welsh influence in the Black Mountains
+-   I went to school in Weobley, which is a village with a primary school and secondary school, and a few shops, but not much else
+-   I went to Hereford Sixth Form College in what felt like a big city at the time, but is less than a 10th the size of Leeds with around 50,000 people
+-   I worked in the leisure centre in Leominster and played lots of sport
 :::
 
+```{=html}
 <!-- ## Pool Cottage in the garden
 
 ![](images/paste-37.png) -->
+```
 
-## Weobley primary school
+```{=html}
+<!-- ## Weobley primary school
 
-![](images/paste-38.png)
+![](images/paste-38.png) -->
+```
 
-Photo of Weobley High School / IMD
+<!-- Photo of Weobley High School / IMD -->
 
-## Bristol
+```{=html}
+<!-- ::: notes
 
-![](images/paste-39.png)
+This is a photo of the football team in Weobley primary school
+
+::: -->
+```
+
+# Bristol (2004-2008) {.center background-image="images/paste-2.jpeg" background-opacity="0.5"}
+
+Photo taken: April 2025 at the GISRUK conference in Bristol
+
+With a year in Salamanca
+
+```{=html}
+<!-- ![](images/paste-39.png)
 
 ## Bristol 2025
 
-![](images/paste-40.png)
+![](images/paste-40.png) -->
+```
 
-## Salamanca on Erasmus exchange (2006-2007)
+# Salamanca (2006-2007) {.center background-image="images/paste-3.jpeg" background-opacity="0.5"}
 
-![](images/paste-55.png)
+Photo taken: June 2007 from my flat at the time in Salamanca
 
-## York (2008-2009)
+```{=html}
+<!-- ## Salamanca on Erasmus exchange (2006-2007)
+
+![](images/paste-55.png) -->
+```
+
+# York (2008-2009) {.center background-image="images/paste-4.jpeg" background-opacity="0.5"}
+
+------------------------------------------------------------------------
 
 -   Scholarship to study Environmental Science and Management
 
@@ -226,11 +251,15 @@ Blog post in [The Oil Drum](http://theoildrum.com/node/5976)
 :::
 :::::
 
-# Sheffield {.center background-image="images/paste-41.png" background-opacity="0.5" background-size="70%"}
+# Sheffield {.center background-image="images/paste-1.jpeg" background-opacity="0.5" background-size="70%"}
 
+```{=html}
 <!-- ## a
 
 ![](images/paste-43.png) -->
+```
+
+<!-- ![](images/paste-41.png) -->
 
 ## Engineers Without Borders (EWB)
 
@@ -252,9 +281,25 @@ Blog post in [The Oil Drum](http://theoildrum.com/node/5976)
 
 ## My thesis
 
-![](images/paste-42.png)
+Source: https://etheses.whiterose.ac.uk/id/eprint/5027/
 
-## Leeds
+![](images/paste-61.png)
+
+<!-- ![](images/paste-42.png) -->
+
+## Spatial microsimulation
+
+![](images/paste-56.png)
+
+![](images/paste-57.png)
+
+![](images/paste-58.png)
+
+![](images/paste-59.png)
+
+![](images/paste-60.png)
+
+# Leeds {.center background-image="images/paste-5.jpeg" background-opacity="0.5"}
 
 ## Sydney
 
@@ -353,7 +398,8 @@ Source: @raff2023
 
 ![](images/paste-24.png)
 
-Illustration of the ClockBoard zoning system used to visualize a geographically dependendent phenomena: air quality, measured in mass of PM10 particles, measured in micrograms per cubic meter, from the London Atmospheric Emissions Inventory (LAEI). The facets show the data in spatial grid available from the LAEI, facet Am and aggregated to London boroughs B, to ClockBoard zones covering all the input data shown in C, and ClockBoard zones clipped by the administrative boundary of Greater London in D.
+Illustration of the ClockBoard zoning system used to visualize a geographically dependendent phenomena: air quality, measured in mass of PM10 particles, measured in micrograms per cubic meter, from the London Atmospheric Emissions Inventory (LAEI).
+The facets show the data in spatial grid available from the LAEI, facet Am and aggregated to London boroughs B, to ClockBoard zones covering all the input data shown in C, and ClockBoard zones clipped by the administrative boundary of Greater London in D.
 
 ## Application: road traffic casualties
 
@@ -580,7 +626,8 @@ Source: screenshot from development version of open source and open access Netwo
 
 ![](images/atip-poly.gif)
 
-Source: [acteng.github.io](https://acteng.github.io/atip/pipeline/scheme.html?authority=LAD_Leeds&schema=pipeline&style=streets#13.6/53.82231/-1.51541). Credit: Dustin Carlino (Alan Turing Institute and Active Travel England) and colleagues in ATE.
+Source: [acteng.github.io](https://acteng.github.io/atip/pipeline/scheme.html?authority=LAD_Leeds&schema=pipeline&style=streets#13.6/53.82231/-1.51541).
+Credit: Dustin Carlino (Alan Turing Institute and Active Travel England) and colleagues in ATE.
 
 # Future-proof transport planning {background-image="images/paste-35.png" background-opacity="0.5"}
 
