@@ -20,6 +20,7 @@ execute:
 
 ```{r}
 #| include: false
+#| cache: false
 library(tidyverse)
 library(sf)
 remotes::install_cran("rmapshaper")
@@ -31,10 +32,14 @@ tmap_mode("view")
 
 Past
 
-- Before Leeds
-- Leeds
+-   Before Leeds
+-   Leeds
 
 **Present**
+
+-   Transport Data Science
+-   Biclar
+-   Network Planning Tool
 
 **FUTURE**
 
@@ -44,25 +49,6 @@ Past
 -   Present: where I'm at
 -   Future: where I'm going
 :::
-
-# Past. Herefordshire (1985-2004) {.center background-image="images/paste-15.png" background-opacity="0.5"}
-
-Photo taken: 1932 in Norton Canon, Herefordshire
-
-::: notes
--   Hard to know how far to go back
--   Where I was born seems a good place to start, in Norton Canon
--   It wasn't this house, but was in the same location, in a photo taken in 1932. I have no idea how my dad got this photo, but it was a great find!
--   My mum and dad moved to Herefordshire in 1979
--   I was born in 1985, six years after they moved but the house still wasn't 100% finished, I may have inherited some of my dad's time optimism
--   Huge thanks to them for physically building a strong foundation for me
-:::
-
-## Where I grew up
-
-Photo: 2025 from Google Street View
-
-![](images/paste-16.png)
 
 ## My journey
 
@@ -139,6 +125,25 @@ tm_shape(locations_sf) +
   tm_text("Years")
 ```
 
+# Past. Herefordshire (1985-2004) {.center background-image="images/paste-15.png" background-opacity="0.5"}
+
+Photo taken: 1932 in Norton Canon, Herefordshire
+
+::: notes
+-   Hard to know how far to go back
+-   Where I was born seems a good place to start, in Norton Canon
+-   It wasn't this house, but was in the same location, in a photo taken in 1932. I have no idea how my dad got this photo, but it was a great find!
+-   My mum and dad moved to Herefordshire in 1979
+-   I was born in 1985, six years after they moved but the house still wasn't 100% finished, I may have inherited some of my dad's time optimism
+-   Huge thanks to them for physically building a strong foundation for me
+:::
+
+## Where I grew up
+
+Photo: 2025 from Google Street View
+
+![](images/paste-16.png)
+
 ## Where I'm from
 
 ```{r}
@@ -167,6 +172,7 @@ sf::write_sf(locations_herefordshire, "locations_herefordshire.geojson", delete_
 qtm(locations_herefordshire) + 
   tm_dots("lightblue", size = 1) +
   tm_text("Location")
+
 ```
 
 ::: notes
@@ -293,48 +299,19 @@ Source: https://etheses.whiterose.ac.uk/id/eprint/5027/
 
 ![](images/paste-56.png)
 
-![](images/paste-57.png)
+```{=html}
+<!-- ![](images/paste-57.png)
 
 ![](images/paste-58.png)
 
 ![](images/paste-59.png)
 
-![](images/paste-60.png)
+![](images/paste-60.png) -->
+```
 
 # Past II. Leeds 2013-... {.center background-image="images/paste-5.jpeg" background-opacity="0.5" background-size="70%"}
 
 Photo taken: February 2021, Sugarwell Hill, Leeds
-
-------------------------------------------------------------------------
-
-::::: columns
-::: {.column width="60%"}
-![](images/paste-7.jpeg)
-:::
-
-::: {.column width="40%"}
-### Massive thanks to
-
-### Katy
-
-### Kit
-
-### Rosa
-:::
-:::::
-
-::: notes
--   A big part of my life now is my family, and I want to say thank you to my wife Katy and my kids Kit (3 years old) and Rosa (six months old) for their support and love. I couldn't do this without them. I have much better work-life balance now than I did when I was a PhD student
--   Family is the foundation on which many good things build.
-:::
-
-------------------------------------------------------------------------
-
-![](images/paste-67.png)
-
-::: notes
-And as shown in the photo, they are also transport planning enthusiasts, undertaking action-based research here to find out how old babies need to be before they can go in a bike trailer!
-:::
 
 ------------------------------------------------------------------------
 
@@ -412,7 +389,94 @@ Source: leeds.ac.uk front page, 2017-03-17
 
 Source: [results2021.ref.ac.uk](https://results2021.ref.ac.uk/impact/847d1191-7f25-46ba-a399-b481125edc8f?page=1) [@lovelace2023]
 
-# FUTURE {.center background-image="images/paste-8.jpeg" background-opacity="0.5" background-size="70%"}
+## Internship in No. 10 Downing Street
+
+::::: columns
+::: {.column width="30%"}
+
+Fellowship in collaboration with 10 Downing Street, ONS, Data Science Campus, ADRUK, ESRC from November 2021 until April 2023
+
+Source: [Press Release "No.10 Data Science Fellowship"](https://environment.leeds.ac.uk/research-project/1/faculty-of-environment/1757/no-10-data-science-fellowship)
+
+:::
+
+::: {.column width="70%"}
+<!-- ![](images/paste-76.png) -->
+
+![](images/paste-11.jpeg)
+
+Source: “Packaging Code and Data for Reproducible Research: A Case Study of Journey Time Statistics.” Environment and Planning B @botta2024.
+:::
+:::::
+
+## Active Travel England
+
+<!-- {background-image="images/paste-9.jpeg" background-opacity="0.5" background-size="70%"} -->
+
+::::: columns
+::: {.column width="65%"}
+<img src="images/paste-9.jpeg" alt="Department for Transport&apos;s Data Science for Transport conference" style="width: 80%; opacity: 0.8;"/>
+:::
+
+::: {.column width="35%"}
+2 year contract in the Civil Service from January 2023
+
+My roles:
+
+-   Recruit the team
+-   Lead Data Scientist
+-   Projects: plan.activetravelengland.gov.uk (formerly ATIP), SchoolRoutes
+:::
+:::::
+
+Source: photo taken May 2023 at the Department for Transport's Data Science for Transport conference
+
+----
+
+**Active Travel England - Alan Turing Institute grant**
+
+<!-- ::::: columns
+::: {.column width="50%"}
+![](images/paste-74.png)
+:::
+
+::: {.column width="50%"}
+![](images/paste-73.png) -->
+
+![](images/paste-10.jpeg){width="70%"}
+<!-- :::
+::::: -->
+
+Photo credit: [Danny Williams](https://www.linkedin.com/feed/update/urn:li:activity:7041103075536707584/) 
+
+# Present {.center background-image="images/paste-67.png" background-opacity="0.5" background-size="70%"}
+
+::: notes
+And as shown in the photo, they are also transport planning enthusiasts, undertaking action-based research here to find out how old babies need to be before they can go in a bike trailer!
+:::
+
+------------------------------------------------------------------------
+
+::::: columns
+::: {.column width="60%"}
+![](images/paste-7.jpeg)
+:::
+
+::: {.column width="40%"}
+### Massive thanks to
+
+### Katy
+
+### Kit
+
+### Rosa
+:::
+:::::
+
+::: notes
+-   A big part of my life now is my family, and I want to say thank you to my wife Katy and my kids Kit (3 years old) and Rosa (six months old) for their support and love. I couldn't do this without them. I have much better work-life balance now than I did when I was a PhD student
+-   Family is the foundation on which many good things build.
+:::
 
 ## My current role
 
@@ -566,130 +630,11 @@ n_per_hour |>
 :::
 :::::
 
-## Re-using existing tools
-
-::::: columns
-::: {.column width="30%"}
-```{r}
-#| eval: false
-#| echo: true
-# Process the data
-od_large = od_database |>
-  group_by(origen, destino) |>
-  summarise(Trips = sum(viajes), .groups = "drop") |>
-  filter(Trips > 500) |>
-  collect() |>
-  arrange(desc(Trips))
-# ℹ 37,013 more rows
-# Convert to geo with {od} package:
-od_large_interzonal_sf = od::od_to_sf(
-  od_large_interzonal,
-  z = distritos_wgs84
-)
-od_large_interzonal_sf |>
-  ggplot() +
-  geom_sf(aes(size = Trips), colour = "red") +
-  theme_void()
-```
-:::
-
-::: {.column width="70%"}
-![](images/paste-4.png)
-:::
-:::::
-
-## Zooming in
-
-```{r}
-#| eval: false
-#| echo: true
-distritos = get_zones(type = "distritos")
-distritos_wgs84 = sf::st_transform(distritos, 4326)
-salamanca_zones = zonebuilder::zb_zone("Salamanca")
-distritos_salamanca = distritos_wgs84[salamanca_zones, ]
-plot(distritos_salamanca)
-```
-
-![](https://github.com/Robinlovelace/spanishoddata/raw/main/man/figures/README-salamanca-zones-1.png)
-
-## Subsetting from the database
-
-::::: columns
-::: {.column width="30%"}
-```{r}
-#| eval: false
-#| echo: true
-od_salamanca = od_database |>
-  filter(origen %in% ids_salamanca) |>
-  filter(destino %in% ids_salamanca) |>
-  collect()
-  group_by(origen, destino) |>
-  summarise(Trips = sum(viajes)) |>
-  arrange(Trips)
-od_salamanca_sf = od::od_to_sf(
-  od_salamanca,
-  z = distritos_salamanca
-)
-od_salamanca_sf |>
-  filter(origen != destino) |>
-  ggplot() +
-  geom_sf(aes(colour = Trips), size = 1) +
-  scale_colour_viridis_c() +
-  theme_void()
-```
-:::
-
-::: {.column width="70%"}
-![](https://github.com/Robinlovelace/spanishoddata/raw/main/man/figures/README-salamanca-plot-1.png)
-:::
-:::::
-
-## Spatial disaggregation
-
-::::: columns
-::: {.column width="30%"}
-```{r}
-#| eval: false
-#| echo: true
-od_jittered = odjitter::jitter(
-  od_salamanca_sf,
-  zones = distritos_salamanca,
-  subpoints = drive_net,
-  disaggregation_threshold = 1000,
-  disaggregation_key = "Trips"
-)
-od_jittered |>
-  arrange(Trips) |>
-  ggplot() +
-  geom_sf(aes(colour = Trips), size = 1) +
-  scale_colour_viridis_c() +
-  geom_sf(data = drive_net_major, colour = "black") +
-  theme_void()
-```
-:::
-
-::: {.column width="70%"}
-![](images/paste-14.png)
-:::
-:::::
-
 ## Building/linking-up-with communities
 
 The package has been onboarded to rOpenSpain public benefit data science community (see [ropenspain.github.io](https://ropenspain.github.io/spanishoddata/))
 
 ![](images/paste-13.png)
-
-## How does spatial disaggregation (jittering) work?
-
-![](images/paste-5.png)
-
-Source: [@lovelace2022a]
-
-## Origin and end point randomisation + disaggregation
-
-![](images/paste-6.png)
-
-Source: [@lovelace2022a]
 
 ## Cross-language collaboration
 
@@ -713,135 +658,7 @@ Source: [@lovelace2020]
 :::
 :::::
 
-## From methods/software development to impact
-
-![](images/paste-8.png)
-
-Source: screenshot from development version of open source and open access Network Planning Tools for Scotland: [https://nptscot.github.io/#/rnet/#9.29/55.9882/-3.4379](https://nptscot.github.io/#/rnet/#9.29/55.9882/-3.4379)
-
-## Rapid feedback loops and interactivity
-
-![Illustration of od2net client-side network generator (source: od2net.org)](images/od2net.gif)
-
-## Enabling participation
-
-![](images/atip-poly.gif)
-
-Source: [acteng.github.io](https://acteng.github.io/atip/pipeline/scheme.html?authority=LAD_Leeds&schema=pipeline&style=streets#13.6/53.82231/-1.51541).
-Credit: Dustin Carlino (Alan Turing Institute and Active Travel England) and colleagues in ATE.
-
-# Future-proof transport planning {background-image="images/paste-35.png" background-opacity="0.5"}
-
-<!-- ![](images/paste-35.png) -->
-
-Source: [situational-awareness.ai](https://situational-awareness.ai/wp-content/uploads/2024/06/situationalawareness.pdf)
-
-## Drivers of demand for transport planning
-
-transport planning software was originally designed in the late 1950s and onwards to plan for
-
-> increased use of cars \[for personal travel\], and trucks for deliveries and goods movement @boyce2015
-
-Thankfully that is no longer a priority:
-
-> Policy drivers have changed dramatically since then: climate change mitigation, air quality improvement and public health are prioritised in the emergent ‘sustainable mobility paradigm’ @lovelace2021
-
-How could/should/will demand shift in the future?
-
-## Stages of open and reproducible science
-
-::::: columns
-::: {.column width="30%"}
-1.  Open access to the publications
-
-2.  Open access to sample (synthetic if sensitive) data
-
-3.  Open access to the code
-
-4.  Fully reproducible paper published with documentation
-
-5.  Project deployed in tool for non-specialist use
-:::
-
-::: {.column width="70%"}
-![](images/paste-12.png)
-:::
-:::::
-
-## Conclusions
-
--   Reproducible research is a key part of future-proofing transport planning, for your work, and for the discipline as a whole
-
--   Open source software and open access tools are key to this, especially if you want to have humans in the loop
-
--   AI is not a panacea, and has its own environmental costs
-
--   In this context, there are some key desirable features of future-proof transport models and associated software and tools:
-
-    -   Open source
-    -   Open access
-    -   Reproducible
-    -   Human-in-the-loop
-    -   Easily adaptable to new data sources, methods, and demands
-
 ## References
 
 ::: {#refs}
 :::
-
-## Future-proofing workflows Appendix
-
-### Avoid stranded assets (tech debt)
-
-![](images/paste-11.png)
-
-Source: @semieniuk2022
-
-## Appendix: What if the machines *do* take over? {#sec-appendix}
-
--   Would you want the AIs to be trained on your work?
-    -   Initial thought: no way, that's my data!
-    -   Second thought: if the AIs are going to take over, they might as well be well-informed, by good information and good intentions!
--   Would you want to be able to understand how the AIs work?
-
-## AI takeover?
-
-<!-- <iframe src="https://ourworldindata.org/grapher/test-scores-ai-capabilities-relative-human-performance?country=Handwriting+recognition~Speech+recognition~Image+recognition~Reading+comprehension~Language+understanding~Predictive+reasoning~Code+generation~Complex+reasoning~General+knowledge+tests~Nuanced+language+interpretation~Math+problem-solving~Reading+comprehension+with+unanswerable+questions&tab=chart" loading="lazy" style="width: 100%; height: 600px; border: 0px none;" allow="web-share; clipboard-write"></iframe> -->
-
-![](images/paste-32.png)
-
-## Where are we headed with AI?
-
-![](images/paste-33.png)
-
-Source: <https://situational-awareness.ai>
-
-## The limits of AI
-
-![](images/paste-21.png)
-
-Nezhurina (N.D.)
-
-<!-- [@nezhurina] -->
-
-## Environmental costs of 'AI'
-
-::::: columns
-::: {.column width="55%"}
-![](images/paste-29.png)
-
-![](images/paste-31.png)
-:::
-
-::: {.column width="45%"}
-IT sector was already poised to become a decarbonisation bottleneck
-
-![](images/paste-30.png)
-:::
-:::::
-
-Source: [theregister.com](https://www.theregister.com/2024/05/16/microsoft_co2_emissions/) and Gupta et al. (2021) <!-- @gupta2021 -->
-
-## Factoring-in build-out of AI data centres
-
-![](images/paste-34.png)
