@@ -399,15 +399,19 @@ First Propensity to Cycle Tool paper published in an academic journal [@lovelace
 
 ## Research impact
 
-![](images/paste-71.png)
+![](images/paste-71.png){width="70%"}
 
-## Sydney
+Source: leeds.ac.uk front page, 2017-03-17
 
-## Chapeltown
+## 4\* Research Excellence Framework (REF) case study
 
-## Chaco
+![](images/paste-72.png)
 
-## Work
+Source: [results2021.ref.ac.uk](https://results2021.ref.ac.uk/impact/847d1191-7f25-46ba-a399-b481125edc8f?page=1) [@lovelace2023]
+
+# FUTURE {.center background-image="images/paste-8.jpeg" background-opacity="0.5" background-size="70%"}
+
+## My current role
 
 ::::::: columns
 :::: {.column width="40%"}
