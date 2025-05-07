@@ -354,35 +354,21 @@
     "href": "slides.html#research-impact",
     "title": "Data Science for Future-Proof Transport Planning",
     "section": "Research impact",
-    "text": "Research impact"
+    "text": "Research impact\n\nSource: leeds.ac.uk front page, 2017-03-17"
   },
   {
-    "objectID": "slides.html#sydney",
-    "href": "slides.html#sydney",
+    "objectID": "slides.html#research-excellence-framework-ref-case-study",
+    "href": "slides.html#research-excellence-framework-ref-case-study",
     "title": "Data Science for Future-Proof Transport Planning",
-    "section": "Sydney",
-    "text": "Sydney"
+    "section": "4* Research Excellence Framework (REF) case study",
+    "text": "4* Research Excellence Framework (REF) case study\n\nSource: results2021.ref.ac.uk (Lovelace et al. 2023)"
   },
   {
-    "objectID": "slides.html#chapeltown",
-    "href": "slides.html#chapeltown",
+    "objectID": "slides.html#my-current-role",
+    "href": "slides.html#my-current-role",
     "title": "Data Science for Future-Proof Transport Planning",
-    "section": "Chapeltown",
-    "text": "Chapeltown"
-  },
-  {
-    "objectID": "slides.html#chaco",
-    "href": "slides.html#chaco",
-    "title": "Data Science for Future-Proof Transport Planning",
-    "section": "Chaco",
-    "text": "Chaco"
-  },
-  {
-    "objectID": "slides.html#work",
-    "href": "slides.html#work",
-    "title": "Data Science for Future-Proof Transport Planning",
-    "section": "Work",
-    "text": "Work\n\n\n\n\nProfessor of Transport Data Science\nWork with government\nFocus on impact\nR package developer and data scientist\nNew methods for more reproducible, data-driven and participatory transport planning"
+    "section": "My current role",
+    "text": "My current role\n\n\n\n\nProfessor of Transport Data Science\nWork with government\nFocus on impact\nR package developer and data scientist\nNew methods for more reproducible, data-driven and participatory transport planning"
   },
   {
     "objectID": "slides.html#what-is-transport-data-science",
@@ -564,7 +550,7 @@
     "href": "slides.html#references",
     "title": "Data Science for Future-Proof Transport Planning",
     "section": "References",
-    "text": "References\n\n\nBoyce, David E., and Huw C. W. L. Williams. 2015. Forecasting Urban Travel: Past, Present and Future. Edward Elgar Publishing.\n\n\nCrawford, F., and R. Lovelace. 2015. “The Benefits of Getting England Cycling.” http://www.ctc.org.uk/sites/default/files/1501_fcrawford-rlovelace_economic-cycle-reformatted.pdf.\n\n\nLovelace, Robin. 2016. “Mapping Out the Future of Cycling.” Get Britain Cycling 5: 2224. http://eprints.whiterose.ac.uk/100080/.\n\n\n———. 2021. “Open Source Tools for Geographic Analysis in Transport Planning.” Journal of Geographical Systems, January. https://doi.org/10.1007/s10109-020-00342-2.\n\n\nLovelace, Robin, Rosa Félix, and Dustin Carlino. 2022. “Jittering: A Computationally Efficient Method for Generating Realistic Route Networks from Origin-Destination Data.” Findings, April, 33873. https://doi.org/10.32866/001c.33873.\n\n\nLovelace, Robin, Anna Goodman, Rachel Aldred, Nikolai Berkoff, Ali Abbas, and James Woodcock. 2017. “The Propensity to Cycle Tool: An Open Source Online System for Sustainable Transport Planning.” Journal of Transport and Land Use 10 (1). https://doi.org/10.5198/jtlu.2016.862.\n\n\nLovelace, Robin, Nick Malleson, Kirk Harland, and Mark Birkin. 2014. “Geotagged Tweets to Inform a Spatial Interaction Model: A Case Study of Museums.” https://doi.org/10.48550/ARXIV.1403.5118.\n\n\nLovelace, Robin, John Parkin, and Tom Cohen. 2020. “Open Access Transport Models: A Leverage Point in Sustainable Transport Planning.” Transport Policy 97 (October): 47–54. https://doi.org/10.1016/j.tranpol.2020.06.015.\n\n\nLovelace, Robin, Martijn Tennekes, and Dustin Carlino. 2022. “ClockBoard: A Zoning System for Urban Analysis.” Journal of Spatial Information Science, no. 24 (June): 63–85. https://doi.org/10.5311/JOSIS.2022.24.172.\n\n\nMacKay, David J C. 2009. Sustainable Energy Without the Hot Air. Cambridge: UIT.\n\n\nPeng, Roger D. 2011. “Reproducible Research in Computational Science.” Science (New York, N.y.) 334 (6060): 1226–27. https://doi.org/10.1126/science.1213847.\n\n\nRaff, Edward. 2023. “Does the Market of Citations Reward Reproducible Work?” In, 8996. ACM REP ’23. New York, NY, USA: Association for Computing Machinery. https://doi.org/10.1145/3589806.3600041.\n\n\nSemieniuk, Gregor, Philip B. Holden, Jean-Francois Mercure, Pablo Salas, Hector Pollitt, Katharine Jobson, Pim Vercoulen, Unnada Chewpreecha, Neil R. Edwards, and Jorge E. Viñuales. 2022. “Stranded Fossil-Fuel Assets Translate to Major Losses for Investors in Advanced Economies.” Nature Climate Change 12 (6): 532–38. https://doi.org/10.1038/s41558-022-01356-y."
+    "text": "References\n\n\nBoyce, David E., and Huw C. W. L. Williams. 2015. Forecasting Urban Travel: Past, Present and Future. Edward Elgar Publishing.\n\n\nCrawford, F., and R. Lovelace. 2015. “The Benefits of Getting England Cycling.” http://www.ctc.org.uk/sites/default/files/1501_fcrawford-rlovelace_economic-cycle-reformatted.pdf.\n\n\nLovelace, Robin. 2016. “Mapping Out the Future of Cycling.” Get Britain Cycling 5: 2224. http://eprints.whiterose.ac.uk/100080/.\n\n\n———. 2021. “Open Source Tools for Geographic Analysis in Transport Planning.” Journal of Geographical Systems, January. https://doi.org/10.1007/s10109-020-00342-2.\n\n\nLovelace, Robin, M Birkin, Joseph Talbot, and Malcolm Morgan. 2023. “Cycle Network Policy, Planning and Investment Transformed by the Propensity to Cycle Tool.” https://results2021.ref.ac.uk/impact/847d1191-7f25-46ba-a399-b481125edc8f?page=1.\n\n\nLovelace, Robin, Rosa Félix, and Dustin Carlino. 2022. “Jittering: A Computationally Efficient Method for Generating Realistic Route Networks from Origin-Destination Data.” Findings, April, 33873. https://doi.org/10.32866/001c.33873.\n\n\nLovelace, Robin, Anna Goodman, Rachel Aldred, Nikolai Berkoff, Ali Abbas, and James Woodcock. 2017. “The Propensity to Cycle Tool: An Open Source Online System for Sustainable Transport Planning.” Journal of Transport and Land Use 10 (1). https://doi.org/10.5198/jtlu.2016.862.\n\n\nLovelace, Robin, Nick Malleson, Kirk Harland, and Mark Birkin. 2014. “Geotagged Tweets to Inform a Spatial Interaction Model: A Case Study of Museums.” https://doi.org/10.48550/ARXIV.1403.5118.\n\n\nLovelace, Robin, John Parkin, and Tom Cohen. 2020. “Open Access Transport Models: A Leverage Point in Sustainable Transport Planning.” Transport Policy 97 (October): 47–54. https://doi.org/10.1016/j.tranpol.2020.06.015.\n\n\nLovelace, Robin, Martijn Tennekes, and Dustin Carlino. 2022. “ClockBoard: A Zoning System for Urban Analysis.” Journal of Spatial Information Science, no. 24 (June): 63–85. https://doi.org/10.5311/JOSIS.2022.24.172.\n\n\nMacKay, David J C. 2009. Sustainable Energy Without the Hot Air. Cambridge: UIT.\n\n\nPeng, Roger D. 2011. “Reproducible Research in Computational Science.” Science (New York, N.y.) 334 (6060): 1226–27. https://doi.org/10.1126/science.1213847.\n\n\nRaff, Edward. 2023. “Does the Market of Citations Reward Reproducible Work?” In, 8996. ACM REP ’23. New York, NY, USA: Association for Computing Machinery. https://doi.org/10.1145/3589806.3600041.\n\n\nSemieniuk, Gregor, Philip B. Holden, Jean-Francois Mercure, Pablo Salas, Hector Pollitt, Katharine Jobson, Pim Vercoulen, Unnada Chewpreecha, Neil R. Edwards, and Jorge E. Viñuales. 2022. “Stranded Fossil-Fuel Assets Translate to Major Losses for Investors in Advanced Economies.” Nature Climate Change 12 (6): 532–38. https://doi.org/10.1038/s41558-022-01356-y."
   },
   {
     "objectID": "slides.html#future-proofing-workflows-appendix",
