@@ -245,6 +245,20 @@
     "text": "Factoring-in build-out of AI data centres"
   },
   {
+    "objectID": "infrastructure-classification.html",
+    "href": "infrastructure-classification.html",
+    "title": "Classifying OSM Data",
+    "section": "",
+    "text": "remotes::install_github(\"nptscot/osmactive\", dependencies = TRUE)\nremotes::install_cran(\"osmextract\")\n\n\nlibrary(osmactive)\nlibrary(dplyr)\nlibrary(tmap)\ntmap_mode(\"view\")\n\n\nstudy_area_route = stplanr::route(\n    from = \"Glasgow Queen Street, Glasgow\",\n    to = \"University of Glasgow, Glasgow\",\n    route_fun = stplanr::route_osrm\n)\nstudy_area_line = stplanr::line2points(study_area_route) |&gt;\n  mutate(id = 1:2) |&gt;\n  od::points_to_odl() |&gt;\n  slice(2)\nstudy_area = sf::st_buffer(study_area_line, dist = 1000) |&gt;\n  rmapshaper::ms_simplify()\nstudy_area = sf::st_union(study_area)\n\n\ntm_shape(study_area) +\n  tm_borders() +\n  tm_shape(study_area_route) +\n  tm_lines(lwd = 2, col = \"red\")\n\n\nosm = get_travel_network(\n    study_area,\n    boundary = study_area,\n    boundary_type = \"clipsrc\"\n)\ncycle_net = get_cycling_network(osm)\ndrive_net = get_driving_network(osm)\ncycle_net = get_cycling_network(osm)\ndrive_net = get_driving_network_major(osm)\ncycle_net = distance_to_road(cycle_net, drive_net)\ncycle_net = classify_cycle_infrastructure(cycle_net)\nm = plot_osm_tmap(cycle_net)\n\n\nm\n\nAnd as a static image:\n\ntmap_mode(\"plot\")\nm"
+  },
+  {
+    "objectID": "paper.html",
+    "href": "paper.html",
+    "title": "",
+    "section": "",
+    "text": "This is a placeholder for a paper."
+  },
+  {
     "objectID": "slides.html#contents",
     "href": "slides.html#contents",
     "title": "Data Science for Future-Proof Transport Planning",
@@ -588,24 +602,10 @@
     "text": "Factoring-in build-out of AI data centres"
   },
   {
-    "objectID": "paper.html",
-    "href": "paper.html",
-    "title": "",
-    "section": "",
-    "text": "This is a placeholder for a paper."
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Future proof transport planning",
     "section": "",
     "text": "Code and slides for my inaugural lecture on future proof transport planning.\nSee more info in link below:\n\nBlurb and introduction\nSlides and website\nTemplate repo on which this builds"
-  },
-  {
-    "objectID": "infrastructure-classification.html",
-    "href": "infrastructure-classification.html",
-    "title": "Classifying OSM Data",
-    "section": "",
-    "text": "remotes::install_github(\"nptscot/osmactive\", dependencies = TRUE)\nremotes::install_cran(\"osmextract\")\n\n\nlibrary(osmactive)\nlibrary(dplyr)\nlibrary(tmap)\ntmap_mode(\"view\")\n\n\nstudy_area_route = stplanr::route(\n    from = \"Glasgow Queen Street, Glasgow\",\n    to = \"University of Glasgow, Glasgow\",\n    route_fun = stplanr::route_osrm\n)\nstudy_area_line = stplanr::line2points(study_area_route) |&gt;\n  mutate(id = 1:2) |&gt;\n  od::points_to_odl() |&gt;\n  slice(2)\nstudy_area = sf::st_buffer(study_area_line, dist = 1000) |&gt;\n  rmapshaper::ms_simplify()\nstudy_area = sf::st_union(study_area)\n\n\ntm_shape(study_area) +\n  tm_borders() +\n  tm_shape(study_area_route) +\n  tm_lines(lwd = 2, col = \"red\")\n\n\nosm = get_travel_network(\n    study_area,\n    boundary = study_area,\n    boundary_type = \"clipsrc\"\n)\ncycle_net = get_cycling_network(osm)\ndrive_net = get_driving_network(osm)\ncycle_net = get_cycling_network(osm)\ndrive_net = get_driving_network_major(osm)\ncycle_net = distance_to_road(cycle_net, drive_net)\ncycle_net = classify_cycle_infrastructure(cycle_net)\nm = plot_osm_tmap(cycle_net)\n\n\nm\n\nAnd as a static image:\n\ntmap_mode(\"plot\")\nm"
   }
 ]
