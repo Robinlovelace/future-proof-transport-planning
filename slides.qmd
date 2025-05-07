@@ -393,11 +393,9 @@ Source: [results2021.ref.ac.uk](https://results2021.ref.ac.uk/impact/847d1191-7f
 
 ::::: columns
 ::: {.column width="30%"}
-
 Fellowship in collaboration with 10 Downing Street, ONS, Data Science Campus, ADRUK, ESRC from November 2021 until April 2023
 
 Source: [Press Release "No.10 Data Science Fellowship"](https://environment.leeds.ac.uk/research-project/1/faculty-of-environment/1757/no-10-data-science-fellowship)
-
 :::
 
 ::: {.column width="70%"}
@@ -431,23 +429,27 @@ My roles:
 
 Source: photo taken May 2023 at the Department for Transport's Data Science for Transport conference
 
-----
+------------------------------------------------------------------------
 
 **Active Travel England - Alan Turing Institute grant**
 
-<!-- ::::: columns
-::: {.column width="50%"}
-![](images/paste-74.png)
+::::: columns
+::: {.column width="80%"}
+![](images/paste-10.jpeg) <!-- ![](images/paste-74.png) -->
 :::
 
-::: {.column width="50%"}
-![](images/paste-73.png) -->
+::: {.column width="20%"}
+Transport Minister Jesse Norman testing out the Active Travel Infrastructure Planning (ATIP) tool
 
-![](images/paste-10.jpeg){width="70%"}
-<!-- :::
-::::: -->
+Photo credit: [Danny Williams](https://www.linkedin.com/feed/update/urn:li:activity:7041103075536707584/)
+:::
+:::::
 
-Photo credit: [Danny Williams](https://www.linkedin.com/feed/update/urn:li:activity:7041103075536707584/) 
+## [plan.activetravelengland.gov.uk](https://plan.activetravelengland.gov.uk/)
+
+Now deployed on gov.uk, allowing anyone to browse data and design new schemes (demo if time allows) 🎉 Credit: Dustin Carlino and team
+
+![](images/paste-77.png)
 
 # Present {.center background-image="images/paste-67.png" background-opacity="0.5" background-size="70%"}
 
@@ -478,29 +480,23 @@ And as shown in the photo, they are also transport planning enthusiasts, underta
 -   Family is the foundation on which many good things build.
 :::
 
-## My current role
+------------------------------------------------------------------------
 
-::::::: columns
-:::: {.column width="40%"}
-::: incremental
+::::: columns
+::: {.column width="40%"}
+### My current role
+
 -   Professor of Transport Data Science
--   Work with government
--   Focus on impact
--   R package developer and data scientist
--   New methods for more reproducible, data-driven and participatory transport planning
+-   Focus on high-impact research
+-   Teaching
+-   Grant funding
+-   Trying to succeed in academia without retreating up an "ivory tower", focus on impact, build a community
 :::
-::::
 
-:::: {.column width="60%"}
-::: {layout="[[1,2], [1]]"}
-![](https://r.geocompx.org/images/cover.png)
-
-![](https://github.com/npct/pct-team/blob/master/figures/front-page-leeds-pct-demo.png?raw=true)
-
-![](images/paste-17.png)
+::: {.column width="60%"}
+![](images/paste-12.jpeg)
 :::
-::::
-:::::::
+:::::
 
 ## What is Transport Data Science?
 
@@ -539,108 +535,21 @@ Source: @raff2023
 
 ::: column
 -   Time
-
 -   Know-how
-
 -   Lack of permission
-
 -   Software is not open
-
 -   Data is not open access
-
 -   Someone might use it in unethical ways
-
 -   Someone might "steal" the work
 :::
 
 ## Example of fully reproducible research
-
-![](images/paste-23.png)
-
-@lovelace2022
-
-## Reproducibility and generalisability
-
-![](images/paste-24.png)
-
-Illustration of the ClockBoard zoning system used to visualize a geographically dependendent phenomena: air quality, measured in mass of PM10 particles, measured in micrograms per cubic meter, from the London Atmospheric Emissions Inventory (LAEI).
-The facets show the data in spatial grid available from the LAEI, facet Am and aggregated to London boroughs B, to ClockBoard zones covering all the input data shown in C, and ClockBoard zones clipped by the administrative boundary of Greater London in D.
-
-## Application: road traffic casualties
-
-![](images/paste-26.png)
-
-![](images/paste-27.png)
-
-## International comparisons
-
-::::: columns
-::: {.column width="70%"}
-![](images/paste-25.png)
-:::
-
-::: {.column width="30%"}
-**Premise**: A key reason for reproducibility is *generalisability*.
-:::
-:::::
-
-# Open source software and open access tools
-
-## Case study: mobile telephone data in Spain
-
-![](images/paste-1.png)
-
-## Don't reinvent the wheel
-
-::::: columns
-::: {.column width="40%"}
-### Before
-
-```{r}
-#| eval: false
-#| echo: true
-options(timeout = 600) # 10 minutes
-u1 = "https://movilidad-opendata.mitma.es/estudios_basicos/por-distritos/viajes/ficheros-diarios/2024-03/20240301_Viajes_distritos.csv.gz"
-f1 = basename(u1)
-if (!file.exists(f1)) {
-  download.file(u1, f1)
-}
-drv = duckdb::duckdb("daily.duckdb")
-con = DBI::dbConnect(drv)
-od1 = duckdb::tbl_file(con, f1)
-```
-
-Credit: [Egor Kotov](https://github.com/Robinlovelace/spanishoddata/blob/main/draft-code/001-convert-to-clean-data.r)
-:::
-
-::: {.column width="60%"}
-```{r}
-#| eval: false
-#| echo: true
-remotes::install_github("Robinlovelace/spanishoddata")
-od_multi_list = get_od(date_regex = "2024030[1-7]")
-# ...
-n_per_hour |>
-  ggplot(aes(x = Time, y = Trips)) +
-  geom_line(aes(colour = Day)) +
-  labs(title = "Number of trips per hour over 7 days")
-```
-
-![](images/paste-2.png)
-:::
-:::::
 
 ## Building/linking-up-with communities
 
 The package has been onboarded to rOpenSpain public benefit data science community (see [ropenspain.github.io](https://ropenspain.github.io/spanishoddata/))
 
 ![](images/paste-13.png)
-
-## Cross-language collaboration
-
-![](images/paste-7.png)
-
-Source: <https://github.com/dabreegster/odjitter>
 
 ## From open source to open access
 
@@ -657,6 +566,10 @@ Source: [@lovelace2020]
 ![](images/paste-10.png)
 :::
 :::::
+
+# FUTURE {.center background-image="images/paste-78.png" background-opacity="0.5"}
+
+Credit: Kit aged 3 (live demo [here](https://photos.lovelaces.org/share/JcIUmi6DGpCUtTdcKet_KbP_P9uO-lG6d7G3HqVbkoo_cy_lORH1ETMta5NOO0Y4B9c) if time allows)
 
 ## References
 
