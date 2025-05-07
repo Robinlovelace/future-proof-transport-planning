@@ -378,11 +378,11 @@
     "text": "Active Travel England\n\n\n\n\n\n2 year contract in the Civil Service from January 2023\nMy roles:\n\nRecruit the team\nLead Data Scientist\nProjects: plan.activetravelengland.gov.uk (formerly ATIP), SchoolRoutes\n\n\nSource: photo taken May 2023 at the Department for Transport’s Data Science for Transport conference"
   },
   {
-    "objectID": "slides.html#my-current-role",
-    "href": "slides.html#my-current-role",
+    "objectID": "slides.html#plan.activetravelengland.gov.uk",
+    "href": "slides.html#plan.activetravelengland.gov.uk",
     "title": "Data Science for Future-Proof Transport Planning",
-    "section": "My current role",
-    "text": "My current role\n\n\n\n\nProfessor of Transport Data Science\nWork with government\nFocus on impact\nR package developer and data scientist\nNew methods for more reproducible, data-driven and participatory transport planning"
+    "section": "plan.activetravelengland.gov.uk",
+    "text": "plan.activetravelengland.gov.uk\nNow deployed on gov.uk, allowing anyone to browse data and design new schemes (demo if time allows) 🎉 Credit: Dustin Carlino and team"
   },
   {
     "objectID": "slides.html#what-is-transport-data-science",
@@ -417,42 +417,7 @@
     "href": "slides.html#example-of-fully-reproducible-research",
     "title": "Data Science for Future-Proof Transport Planning",
     "section": "Example of fully reproducible research",
-    "text": "Example of fully reproducible research\n\nLovelace, Tennekes, and Carlino (2022)"
-  },
-  {
-    "objectID": "slides.html#reproducibility-and-generalisability",
-    "href": "slides.html#reproducibility-and-generalisability",
-    "title": "Data Science for Future-Proof Transport Planning",
-    "section": "Reproducibility and generalisability",
-    "text": "Reproducibility and generalisability\n\nIllustration of the ClockBoard zoning system used to visualize a geographically dependendent phenomena: air quality, measured in mass of PM10 particles, measured in micrograms per cubic meter, from the London Atmospheric Emissions Inventory (LAEI). The facets show the data in spatial grid available from the LAEI, facet Am and aggregated to London boroughs B, to ClockBoard zones covering all the input data shown in C, and ClockBoard zones clipped by the administrative boundary of Greater London in D."
-  },
-  {
-    "objectID": "slides.html#application-road-traffic-casualties",
-    "href": "slides.html#application-road-traffic-casualties",
-    "title": "Data Science for Future-Proof Transport Planning",
-    "section": "Application: road traffic casualties",
-    "text": "Application: road traffic casualties"
-  },
-  {
-    "objectID": "slides.html#international-comparisons",
-    "href": "slides.html#international-comparisons",
-    "title": "Data Science for Future-Proof Transport Planning",
-    "section": "International comparisons",
-    "text": "International comparisons\n\n\n\n\nPremise: A key reason for reproducibility is generalisability."
-  },
-  {
-    "objectID": "slides.html#case-study-mobile-telephone-data-in-spain",
-    "href": "slides.html#case-study-mobile-telephone-data-in-spain",
-    "title": "Data Science for Future-Proof Transport Planning",
-    "section": "Case study: mobile telephone data in Spain",
-    "text": "Case study: mobile telephone data in Spain"
-  },
-  {
-    "objectID": "slides.html#dont-reinvent-the-wheel",
-    "href": "slides.html#dont-reinvent-the-wheel",
-    "title": "Data Science for Future-Proof Transport Planning",
-    "section": "Don’t reinvent the wheel",
-    "text": "Don’t reinvent the wheel\n\n\nBefore\n\noptions(timeout = 600) # 10 minutes\nu1 = \"https://movilidad-opendata.mitma.es/estudios_basicos/por-distritos/viajes/ficheros-diarios/2024-03/20240301_Viajes_distritos.csv.gz\"\nf1 = basename(u1)\nif (!file.exists(f1)) {\n  download.file(u1, f1)\n}\ndrv = duckdb::duckdb(\"daily.duckdb\")\ncon = DBI::dbConnect(drv)\nod1 = duckdb::tbl_file(con, f1)\n\nCredit: Egor Kotov\n\n\nremotes::install_github(\"Robinlovelace/spanishoddata\")\nod_multi_list = get_od(date_regex = \"2024030[1-7]\")\n# ...\nn_per_hour |&gt;\n  ggplot(aes(x = Time, y = Trips)) +\n  geom_line(aes(colour = Day)) +\n  labs(title = \"Number of trips per hour over 7 days\")"
+    "text": "Example of fully reproducible research"
   },
   {
     "objectID": "slides.html#buildinglinking-up-with-communities",
@@ -460,13 +425,6 @@
     "title": "Data Science for Future-Proof Transport Planning",
     "section": "Building/linking-up-with communities",
     "text": "Building/linking-up-with communities\nThe package has been onboarded to rOpenSpain public benefit data science community (see ropenspain.github.io)"
-  },
-  {
-    "objectID": "slides.html#cross-language-collaboration",
-    "href": "slides.html#cross-language-collaboration",
-    "title": "Data Science for Future-Proof Transport Planning",
-    "section": "Cross-language collaboration",
-    "text": "Cross-language collaboration\n\nSource: https://github.com/dabreegster/odjitter"
   },
   {
     "objectID": "slides.html#from-open-source-to-open-access",
@@ -480,7 +438,7 @@
     "href": "slides.html#references",
     "title": "Data Science for Future-Proof Transport Planning",
     "section": "References",
-    "text": "References\n\n\nBotta, Federico, Robin Lovelace, Laura Gilbert, and Arthur Turrell. 2024. “Packaging Code and Data for Reproducible Research: A Case Study of Journey Time Statistics.” Environment and Planning B: Urban Analytics and City Science 52 (4): 1002–13. https://doi.org/10.1177/23998083241267331.\n\n\nCrawford, F., and R. Lovelace. 2015. “The Benefits of Getting England Cycling.” http://www.ctc.org.uk/sites/default/files/1501_fcrawford-rlovelace_economic-cycle-reformatted.pdf.\n\n\nLovelace, Robin. 2016. “Mapping Out the Future of Cycling.” Get Britain Cycling 5: 2224. http://eprints.whiterose.ac.uk/100080/.\n\n\nLovelace, Robin, M Birkin, Joseph Talbot, and Malcolm Morgan. 2023. “Cycle Network Policy, Planning and Investment Transformed by the Propensity to Cycle Tool.” https://results2021.ref.ac.uk/impact/847d1191-7f25-46ba-a399-b481125edc8f?page=1.\n\n\nLovelace, Robin, Anna Goodman, Rachel Aldred, Nikolai Berkoff, Ali Abbas, and James Woodcock. 2017. “The Propensity to Cycle Tool: An Open Source Online System for Sustainable Transport Planning.” Journal of Transport and Land Use 10 (1). https://doi.org/10.5198/jtlu.2016.862.\n\n\nLovelace, Robin, Nick Malleson, Kirk Harland, and Mark Birkin. 2014. “Geotagged Tweets to Inform a Spatial Interaction Model: A Case Study of Museums.” https://doi.org/10.48550/ARXIV.1403.5118.\n\n\nLovelace, Robin, John Parkin, and Tom Cohen. 2020. “Open Access Transport Models: A Leverage Point in Sustainable Transport Planning.” Transport Policy 97 (October): 47–54. https://doi.org/10.1016/j.tranpol.2020.06.015.\n\n\nLovelace, Robin, Martijn Tennekes, and Dustin Carlino. 2022. “ClockBoard: A Zoning System for Urban Analysis.” Journal of Spatial Information Science, no. 24 (June): 63–85. https://doi.org/10.5311/JOSIS.2022.24.172.\n\n\nMacKay, David J C. 2009. Sustainable Energy Without the Hot Air. Cambridge: UIT.\n\n\nPeng, Roger D. 2011. “Reproducible Research in Computational Science.” Science (New York, N.y.) 334 (6060): 1226–27. https://doi.org/10.1126/science.1213847.\n\n\nRaff, Edward. 2023. “Does the Market of Citations Reward Reproducible Work?” In, 8996. ACM REP ’23. New York, NY, USA: Association for Computing Machinery. https://doi.org/10.1145/3589806.3600041."
+    "text": "References\n\n\nBotta, Federico, Robin Lovelace, Laura Gilbert, and Arthur Turrell. 2024. “Packaging Code and Data for Reproducible Research: A Case Study of Journey Time Statistics.” Environment and Planning B: Urban Analytics and City Science 52 (4): 1002–13. https://doi.org/10.1177/23998083241267331.\n\n\nCrawford, F., and R. Lovelace. 2015. “The Benefits of Getting England Cycling.” http://www.ctc.org.uk/sites/default/files/1501_fcrawford-rlovelace_economic-cycle-reformatted.pdf.\n\n\nLovelace, Robin. 2016. “Mapping Out the Future of Cycling.” Get Britain Cycling 5: 2224. http://eprints.whiterose.ac.uk/100080/.\n\n\nLovelace, Robin, M Birkin, Joseph Talbot, and Malcolm Morgan. 2023. “Cycle Network Policy, Planning and Investment Transformed by the Propensity to Cycle Tool.” https://results2021.ref.ac.uk/impact/847d1191-7f25-46ba-a399-b481125edc8f?page=1.\n\n\nLovelace, Robin, Anna Goodman, Rachel Aldred, Nikolai Berkoff, Ali Abbas, and James Woodcock. 2017. “The Propensity to Cycle Tool: An Open Source Online System for Sustainable Transport Planning.” Journal of Transport and Land Use 10 (1). https://doi.org/10.5198/jtlu.2016.862.\n\n\nLovelace, Robin, Nick Malleson, Kirk Harland, and Mark Birkin. 2014. “Geotagged Tweets to Inform a Spatial Interaction Model: A Case Study of Museums.” https://doi.org/10.48550/ARXIV.1403.5118.\n\n\nLovelace, Robin, John Parkin, and Tom Cohen. 2020. “Open Access Transport Models: A Leverage Point in Sustainable Transport Planning.” Transport Policy 97 (October): 47–54. https://doi.org/10.1016/j.tranpol.2020.06.015.\n\n\nMacKay, David J C. 2009. Sustainable Energy Without the Hot Air. Cambridge: UIT.\n\n\nPeng, Roger D. 2011. “Reproducible Research in Computational Science.” Science (New York, N.y.) 334 (6060): 1226–27. https://doi.org/10.1126/science.1213847.\n\n\nRaff, Edward. 2023. “Does the Market of Citations Reward Reproducible Work?” In, 8996. ACM REP ’23. New York, NY, USA: Association for Computing Machinery. https://doi.org/10.1145/3589806.3600041."
   },
   {
     "objectID": "index.html",
