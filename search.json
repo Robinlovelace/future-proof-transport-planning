@@ -263,7 +263,14 @@
     "href": "slides.html#contents",
     "title": "Data Science for Future-Proof Transport Planning",
     "section": "Contents",
-    "text": "Contents\nPast\nPresent\nFUTURE\n\n\nPast: my journey and the people who made it possible\n\nTaking the liberty of talking about my life\n\nPresent: what I do\nFuture: what I think is important\nFuture-proofing transport planning\nFuture-proofing workflows\nFuture-proofing transport planning"
+    "text": "Contents\nPast\nPresent\nFUTURE\n\n\nPast: my journey and the people who made it possible\n\nTaking the liberty of talking about my life\n\nPresent: where I’m at\nFuture: where I’m going"
+  },
+  {
+    "objectID": "slides.html#where-i-grew-up",
+    "href": "slides.html#where-i-grew-up",
+    "title": "Data Science for Future-Proof Transport Planning",
+    "section": "Where I grew up",
+    "text": "Where I grew up\nPhoto: 2025 from Google Street View"
   },
   {
     "objectID": "slides.html#my-journey",
@@ -278,13 +285,6 @@
     "title": "Data Science for Future-Proof Transport Planning",
     "section": "Where I’m from",
     "text": "Where I’m from\n\n\n\n\n\n\n\n\nFigure 2: Places where I spent a lot of time in Herefordshire\n\n\n\n\n\n\nNorton Canon is a village with around 200 people\nIt had a school, shop, pub church, post office and garage within walking distance when I was growing up but now only has two of those\nIt’s remote, roughly equidistant from Hereford, Leominster and Hay on Wye\nAlthough Hay on Wye is physically closer, it always felt further away because we rarely went that way, but you could feel the Welsh influence in the Black Mountains\nI went to school in Weobley, which is a village with a primary school and secondary school, and a few shops, but not much else\nI went to Hereford Sixth Form College in what felt like a big city at the time, but is less than a 10th the size of Leeds with around 50,000 people\nI worked in the leisure centre in Leominster and played lots of sport"
-  },
-  {
-    "objectID": "slides.html#pool-cottage-2025",
-    "href": "slides.html#pool-cottage-2025",
-    "title": "Data Science for Future-Proof Transport Planning",
-    "section": "Pool Cottage (2025)",
-    "text": "Pool Cottage (2025)"
   },
   {
     "objectID": "slides.html#engineers-without-borders-ewb",
@@ -322,25 +322,39 @@
     "text": "Spatial microsimulation"
   },
   {
-    "objectID": "slides.html#side-projects",
-    "href": "slides.html#side-projects",
+    "objectID": "slides.html#side-projects-cycling-uptake-work-for-cyclinguk",
+    "href": "slides.html#side-projects-cycling-uptake-work-for-cyclinguk",
     "title": "Data Science for Future-Proof Transport Planning",
-    "section": "Side projects",
-    "text": "Side projects\n\nWork on the economic benefits of cycling nationwide with James Woodcock and Fiona Crawford (Crawford and Lovelace 2015)"
+    "section": "Side projects: Cycling uptake work for CyclingUK",
+    "text": "Side projects: Cycling uptake work for CyclingUK\n\nSource: CyclingUK (formerly CTC) response to government’s Cycling Delivery Plan consultation, available online at cyclinguk.org."
   },
   {
-    "objectID": "slides.html#propensity-to-cycle-tool",
-    "href": "slides.html#propensity-to-cycle-tool",
+    "objectID": "slides.html#work-commissioned-by-cyclinguk-previously-ctc",
+    "href": "slides.html#work-commissioned-by-cyclinguk-previously-ctc",
     "title": "Data Science for Future-Proof Transport Planning",
-    "section": "Propensity to Cycle Tool",
-    "text": "Propensity to Cycle Tool"
+    "section": "Work commissioned by CyclingUK (previously CTC)",
+    "text": "Work commissioned by CyclingUK (previously CTC)\n\nWork on the economic benefits of cycling nationwide with James Woodcock and Fiona Crawford (Crawford and Lovelace 2015)"
   },
   {
-    "objectID": "slides.html#from-routes-to-networks",
-    "href": "slides.html#from-routes-to-networks",
+    "objectID": "slides.html#propensity-to-cycle-tool-www.pct.bike",
+    "href": "slides.html#propensity-to-cycle-tool-www.pct.bike",
     "title": "Data Science for Future-Proof Transport Planning",
-    "section": "From routes to networks",
-    "text": "From routes to networks\n\n\nTest\n\nTEST"
+    "section": "Propensity to Cycle Tool (www.pct.bike)",
+    "text": "Propensity to Cycle Tool (www.pct.bike)\n\n\n  Source: article in practitioner magazine (Lovelace 2016).\n\n\nFirst Propensity to Cycle Tool paper published in an academic journal (Lovelace et al. 2017)"
+  },
+  {
+    "objectID": "slides.html#from-research-to-web-tool",
+    "href": "slides.html#from-research-to-web-tool",
+    "title": "Data Science for Future-Proof Transport Planning",
+    "section": "From research to web tool",
+    "text": "From research to web tool"
+  },
+  {
+    "objectID": "slides.html#research-impact",
+    "href": "slides.html#research-impact",
+    "title": "Data Science for Future-Proof Transport Planning",
+    "section": "Research impact",
+    "text": "Research impact"
   },
   {
     "objectID": "slides.html#sydney",
@@ -550,7 +564,7 @@
     "href": "slides.html#references",
     "title": "Data Science for Future-Proof Transport Planning",
     "section": "References",
-    "text": "References\n\n\nBoyce, David E., and Huw C. W. L. Williams. 2015. Forecasting Urban Travel: Past, Present and Future. Edward Elgar Publishing.\n\n\nCrawford, F., and R. Lovelace. 2015. “The Benefits of Getting England Cycling.” http://www.ctc.org.uk/sites/default/files/1501_fcrawford-rlovelace_economic-cycle-reformatted.pdf.\n\n\nLovelace, Robin. 2021. “Open Source Tools for Geographic Analysis in Transport Planning.” Journal of Geographical Systems, January. https://doi.org/10.1007/s10109-020-00342-2.\n\n\nLovelace, Robin, Rosa Félix, and Dustin Carlino. 2022. “Jittering: A Computationally Efficient Method for Generating Realistic Route Networks from Origin-Destination Data.” Findings, April, 33873. https://doi.org/10.32866/001c.33873.\n\n\nLovelace, Robin, Nick Malleson, Kirk Harland, and Mark Birkin. 2014. “Geotagged Tweets to Inform a Spatial Interaction Model: A Case Study of Museums.” https://doi.org/10.48550/ARXIV.1403.5118.\n\n\nLovelace, Robin, John Parkin, and Tom Cohen. 2020. “Open Access Transport Models: A Leverage Point in Sustainable Transport Planning.” Transport Policy 97 (October): 47–54. https://doi.org/10.1016/j.tranpol.2020.06.015.\n\n\nLovelace, Robin, Martijn Tennekes, and Dustin Carlino. 2022. “ClockBoard: A Zoning System for Urban Analysis.” Journal of Spatial Information Science, no. 24 (June): 63–85. https://doi.org/10.5311/JOSIS.2022.24.172.\n\n\nMacKay, David J C. 2009. Sustainable Energy Without the Hot Air. Cambridge: UIT.\n\n\nPeng, Roger D. 2011. “Reproducible Research in Computational Science.” Science (New York, N.y.) 334 (6060): 1226–27. https://doi.org/10.1126/science.1213847.\n\n\nRaff, Edward. 2023. “Does the Market of Citations Reward Reproducible Work?” In, 8996. ACM REP ’23. New York, NY, USA: Association for Computing Machinery. https://doi.org/10.1145/3589806.3600041.\n\n\nSemieniuk, Gregor, Philip B. Holden, Jean-Francois Mercure, Pablo Salas, Hector Pollitt, Katharine Jobson, Pim Vercoulen, Unnada Chewpreecha, Neil R. Edwards, and Jorge E. Viñuales. 2022. “Stranded Fossil-Fuel Assets Translate to Major Losses for Investors in Advanced Economies.” Nature Climate Change 12 (6): 532–38. https://doi.org/10.1038/s41558-022-01356-y."
+    "text": "References\n\n\nBoyce, David E., and Huw C. W. L. Williams. 2015. Forecasting Urban Travel: Past, Present and Future. Edward Elgar Publishing.\n\n\nCrawford, F., and R. Lovelace. 2015. “The Benefits of Getting England Cycling.” http://www.ctc.org.uk/sites/default/files/1501_fcrawford-rlovelace_economic-cycle-reformatted.pdf.\n\n\nLovelace, Robin. 2016. “Mapping Out the Future of Cycling.” Get Britain Cycling 5: 2224. http://eprints.whiterose.ac.uk/100080/.\n\n\n———. 2021. “Open Source Tools for Geographic Analysis in Transport Planning.” Journal of Geographical Systems, January. https://doi.org/10.1007/s10109-020-00342-2.\n\n\nLovelace, Robin, Rosa Félix, and Dustin Carlino. 2022. “Jittering: A Computationally Efficient Method for Generating Realistic Route Networks from Origin-Destination Data.” Findings, April, 33873. https://doi.org/10.32866/001c.33873.\n\n\nLovelace, Robin, Anna Goodman, Rachel Aldred, Nikolai Berkoff, Ali Abbas, and James Woodcock. 2017. “The Propensity to Cycle Tool: An Open Source Online System for Sustainable Transport Planning.” Journal of Transport and Land Use 10 (1). https://doi.org/10.5198/jtlu.2016.862.\n\n\nLovelace, Robin, Nick Malleson, Kirk Harland, and Mark Birkin. 2014. “Geotagged Tweets to Inform a Spatial Interaction Model: A Case Study of Museums.” https://doi.org/10.48550/ARXIV.1403.5118.\n\n\nLovelace, Robin, John Parkin, and Tom Cohen. 2020. “Open Access Transport Models: A Leverage Point in Sustainable Transport Planning.” Transport Policy 97 (October): 47–54. https://doi.org/10.1016/j.tranpol.2020.06.015.\n\n\nLovelace, Robin, Martijn Tennekes, and Dustin Carlino. 2022. “ClockBoard: A Zoning System for Urban Analysis.” Journal of Spatial Information Science, no. 24 (June): 63–85. https://doi.org/10.5311/JOSIS.2022.24.172.\n\n\nMacKay, David J C. 2009. Sustainable Energy Without the Hot Air. Cambridge: UIT.\n\n\nPeng, Roger D. 2011. “Reproducible Research in Computational Science.” Science (New York, N.y.) 334 (6060): 1226–27. https://doi.org/10.1126/science.1213847.\n\n\nRaff, Edward. 2023. “Does the Market of Citations Reward Reproducible Work?” In, 8996. ACM REP ’23. New York, NY, USA: Association for Computing Machinery. https://doi.org/10.1145/3589806.3600041.\n\n\nSemieniuk, Gregor, Philip B. Holden, Jean-Francois Mercure, Pablo Salas, Hector Pollitt, Katharine Jobson, Pim Vercoulen, Unnada Chewpreecha, Neil R. Edwards, and Jorge E. Viñuales. 2022. “Stranded Fossil-Fuel Assets Translate to Major Losses for Investors in Advanced Economies.” Nature Climate Change 12 (6): 532–38. https://doi.org/10.1038/s41558-022-01356-y."
   },
   {
     "objectID": "slides.html#future-proofing-workflows-appendix",
