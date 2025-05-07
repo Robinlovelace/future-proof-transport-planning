@@ -38,14 +38,28 @@ Past
 ::: notes
 -   Past: my journey and the people who made it possible
     -   Taking the liberty of talking about my life
--   Present: what I do
--   Future: what I think is important
--   Future-proofing transport planning
--   Future-proofing workflows
--   Future-proofing transport planning
+-   Present: where I'm at
+-   Future: where I'm going
 :::
 
-# Past {background-color="#40666e"}
+# Past. Herefordshire (1985-2004) {.center background-image="images/paste-15.png" background-opacity="0.5"}
+
+Photo taken: 1932 in Norton Canon, Herefordshire
+
+::: notes
+-   Hard to know how far to go back
+-   Where I was born seems a good place to start, in Norton Canon
+-   It wasn't this house, but was in the same location, in a photo taken in 1932. I have no idea how my dad got this photo, but it was a great find!
+-   My mum and dad moved to Herefordshire in 1979
+-   I was born in 1985, six years after they moved but the house still wasn't 100% finished, I may have inherited some of my dad's time optimism
+-   Huge thanks to them for physically building a strong foundation for me
+:::
+
+## Where I grew up
+
+Photo: 2025 from Google Street View
+
+![](images/paste-16.png)
 
 ## My journey
 
@@ -122,19 +136,6 @@ tm_shape(locations_sf) +
   tm_text("Years")
 ```
 
-# Herefordshire (1985-2004) {.center background-image="images/paste-15.png" background-opacity="0.5"}
-
-Photo taken: 1932 in Norton Canon, Herefordshire
-
-::: notes
--   Hard to know how far to go back
--   Where I was born seems a good place to start, in Norton Canon
--   It wasn't this house, but was in the same location, in a photo taken in 1932. I have no idea how my dad got this photo, but it was a great find!
--   My mum and dad moved to Herefordshire in 1979
--   I was born in 1985, six years after they moved but the house still wasn't 100% finished, I may have inherited some of my dad's time optimism
--   Huge thanks to them for physically building a strong foundation for me
-:::
-
 ## Where I'm from
 
 ```{r}
@@ -174,10 +175,6 @@ qtm(locations_herefordshire) +
 -   I went to Hereford Sixth Form College in what felt like a big city at the time, but is less than a 10th the size of Leeds with around 50,000 people
 -   I worked in the leisure centre in Leominster and played lots of sport
 :::
-
-## Pool Cottage (2025)
-
-![](images/paste-16.png)
 
 ```{=html}
 <!-- ## Pool Cottage in the garden
@@ -305,18 +302,14 @@ Source: https://etheses.whiterose.ac.uk/id/eprint/5027/
 
 Photo taken: February 2021, Sugarwell Hill, Leeds
 
-------
+------------------------------------------------------------------------
 
 ::::: columns
-
 ::: {.column width="60%"}
-
 ![](images/paste-7.jpeg)
-
 :::
 
 ::: {.column width="40%"}
-
 ### Massive thanks to
 
 ### Katy
@@ -324,9 +317,7 @@ Photo taken: February 2021, Sugarwell Hill, Leeds
 ### Kit
 
 ### Rosa
-
 :::
-
 :::::
 
 ::: notes
@@ -334,14 +325,12 @@ Photo taken: February 2021, Sugarwell Hill, Leeds
 -   Family is the foundation on which many good things build.
 :::
 
-----
+------------------------------------------------------------------------
 
 ![](images/paste-67.png)
 
 ::: notes
-
 And as shown in the photo, they are also transport planning enthusiasts, undertaking action-based research here to find out how old babies need to be before they can go in a bike trailer!
-
 :::
 
 ------------------------------------------------------------------------
@@ -365,40 +354,52 @@ This paper was about using new sources of data to inform models of human movemen
 
 It was fascinating from an academic and methods perspective, and was ideal for strengthening my data science and programming skills.
 
-But it lacked meaning for me: the dataset was on visits to museums in Leeds. That is interesting, but not exactly life changing, or the kind of "save the world" stuff I wanted to do.
+But it lacked meaning for me: the dataset was on visits to museums in Leeds.
+That is interesting, but not exactly life changing, or the kind of "save the world" stuff I wanted to do.
 
 Incidentally the paper was never actually published, we submitted to a journal but never heard back.
 
-I posted it on the arXiv and it got around 20 citations, which is not bad for a paper that was never published. Rather than focus on publishing it elsewhere, I moved on to other things.
+I posted it on the arXiv and it got around 20 citations, which is not bad for a paper that was never published.
+Rather than focus on publishing it elsewhere, I moved on to other things.
 
 Morale of the story: don't give up!
-
-
 :::
 
-## Side projects
+## Side projects: Cycling uptake work for CyclingUK
+
+![](images/paste-69.png)
+
+Source: CyclingUK (formerly CTC) response to government's [Cycling Delivery Plan](https://www.gov.uk/government/consultations/cycling-delivery-plan-informal-consultation) consultation, available [online at cyclinguk.org](https://www.cyclinguk.org/sites/default/files/document/migrated/news/1411_ctcsj_cdp_response_con_finalca.pdf).
+
+<!-- TODO: add links to this https://www.gov.uk/government/consultations/cycling-delivery-plan-informal-consultation -->
+
+## Work commissioned by CyclingUK (previously CTC)
 
 ![](images/paste-66.png)
 
-Work on the economic benefits of cycling nationwide with James Woodcock and Fiona Crawford [@crawford2015]
+[Work](https://github.com/Robinlovelace/energy-cycling) on the economic benefits of cycling nationwide with James Woodcock and Fiona Crawford [@crawford2015]
 
-## Propensity to Cycle Tool
-
-![](images/paste-64.png)
-
-![](images/paste-65.png)
-
-## From routes to networks
+## Propensity to Cycle Tool ([www.pct.bike](https://www.pct.bike/))
 
 ::::: columns
 ::: {.column width="50%"}
-Test
+![](images/paste-64.png) ![](images/paste-65.png) Source: article in practitioner magazine [@lovelace2016].
 :::
 
 ::: {.column width="50%"}
-TEST
+![](images/paste-68.png)
+
+First Propensity to Cycle Tool paper published in an academic journal [@lovelace2017]
 :::
 :::::
+
+## From research to web tool
+
+![](images/paste-70.png)
+
+## Research impact
+
+![](images/paste-71.png)
 
 ## Sydney
 
