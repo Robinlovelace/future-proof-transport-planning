@@ -31,6 +31,9 @@ tmap_mode("view")
 
 Past
 
+- Before Leeds
+- Leeds
+
 **Present**
 
 **FUTURE**
@@ -298,7 +301,7 @@ Source: https://etheses.whiterose.ac.uk/id/eprint/5027/
 
 ![](images/paste-60.png)
 
-# Present. Leeds 2013-... {.center background-image="images/paste-5.jpeg" background-opacity="0.5" background-size="70%"}
+# Past II. Leeds 2013-... {.center background-image="images/paste-5.jpeg" background-opacity="0.5" background-size="70%"}
 
 Photo taken: February 2021, Sugarwell Hill, Leeds
 
