@@ -509,11 +509,15 @@ A field "to optimize the service contracts and maintenance intervals for industr
 
 "Data Science = Statistics + Machine Learning” or "Statistics + Computing + Communication + Sociology + Management"? ([Vybornova, 2025](https://en.itu.dk/Research/PhD-Programme/PhD-Defences/PhD-Defences-2025/March/Anastassia-Vybornova))
 
-## Data Science and Reproducibility
+## Transport Data Science and Reproducibility
 
-A "discipline that allows you to transform raw data into understanding, insight, and knowledge" [@wickham2023]
+Transport data science is
 
-With reproducible and therefore falsifiable, scientific and scalable code.
+-   A "discipline that allows you to transform raw data into understanding, insight, and knowledge" [@wickham2023]
+
+-   With reproducible and therefore falsifiable, scientific and scalable code.
+
+-   For deeper understandings of and more evidence-based interventions in transport systems
 
 Reproducibility is a continuous variable [@peng2011]
 
