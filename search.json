@@ -438,7 +438,7 @@
     "href": "slides.html#principles-for-future-research-and-practice",
     "title": "Data Science for Future-Proof Transport Planning",
     "section": "Principles for future research and practice",
-    "text": "Principles for future research and practice\n\n\n  &lt; !–  –&gt;\n\nSources: RoadRunner, A/B Street’s LTN tool, “Designing an E-Bike City” (Ballo, Raubal, and Axhausen 2024)\n\n\n\nFaster\nMore gamified/responsive/accessible\nMore open/reproducible\nHigher resolution\nBolder"
+    "text": "Principles for future research and practice\n\n\n  &lt; !–  - -&gt;\n\nSources: RoadRunner, A/B Street’s LTN tool, “Designing an E-Bike City” (Ballo, Raubal, and Axhausen 2024)\n\n\n\nFaster\nMore gamified/responsive/accessible\nMore open/reproducible\nHigher resolution\nBolder"
   },
   {
     "objectID": "slides.html#plug-the-ab-street-low-traffic-design-tool",
@@ -448,11 +448,11 @@
     "text": "Plug: The A/B Street low traffic design tool\n\n\nIt’s been many months since I last tried out the Low Traffic Neighbourhood (LTN) design tool developed by Dustin Carlino, and I’m blown away, it’s on another level 🤯 Responsive, informative, intuitive, accessible, fully open. See for yourself here: a-b-street.github.io/ltn\n\n— Robin Lovelace ((robinlovelace.bsky.social?))"
   },
   {
-    "objectID": "slides.html#plug-kay-axhausens-upcoming-talk-on-modelling-radical-change",
-    "href": "slides.html#plug-kay-axhausens-upcoming-talk-on-modelling-radical-change",
+    "objectID": "slides.html#plug-kay-axhausens-upcoming-talk-at-its",
+    "href": "slides.html#plug-kay-axhausens-upcoming-talk-at-its",
     "title": "Data Science for Future-Proof Transport Planning",
-    "section": "Plug: Kay Axhausen’s upcoming talk on “modelling radical change”",
-    "text": "Plug: Kay Axhausen’s upcoming talk on “modelling radical change”\nSource: ticketsource.com"
+    "section": "Plug: Kay Axhausen’s upcoming talk at ITS",
+    "text": "Plug: Kay Axhausen’s upcoming talk at ITS\n\nSource: ticketsource.com"
   },
   {
     "objectID": "slides.html#idea-1-activecount",
@@ -474,6 +474,13 @@
     "title": "Data Science for Future-Proof Transport Planning",
     "section": "Idea 3: NetGen",
     "text": "Idea 3: NetGen\n\nImage credit: “The crowd is the territory” (Anderson et al. 2018)"
+  },
+  {
+    "objectID": "slides.html#learn-more-and-get-involved",
+    "href": "slides.html#learn-more-and-get-involved",
+    "title": "Data Science for Future-Proof Transport Planning",
+    "section": "Learn more and get involved",
+    "text": "Learn more and get involved"
   },
   {
     "objectID": "slides.html#references",
