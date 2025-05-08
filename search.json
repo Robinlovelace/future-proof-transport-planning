@@ -392,11 +392,11 @@
     "text": "What is Transport Data Science?\nWhat is data science?\n\nA field “to optimize the service contracts and maintenance intervals for industrial products”? (Davenport and Patil 2012)\n“Data Science = Statistics + Machine Learning” or “Statistics + Computing + Communication + Sociology + Management”? (Vybornova, 2025)"
   },
   {
-    "objectID": "slides.html#data-science-and-reproducibility",
-    "href": "slides.html#data-science-and-reproducibility",
+    "objectID": "slides.html#transport-data-science-and-reproducibility",
+    "href": "slides.html#transport-data-science-and-reproducibility",
     "title": "Data Science for Future-Proof Transport Planning",
-    "section": "Data Science and Reproducibility",
-    "text": "Data Science and Reproducibility\nA “discipline that allows you to transform raw data into understanding, insight, and knowledge” (Wickham, Cetinkaya-Rundel, and Grolemund 2023)\nWith reproducible and therefore falsifiable, scientific and scalable code.\nReproducibility is a continuous variable (Peng 2011)"
+    "section": "Transport Data Science and Reproducibility",
+    "text": "Transport Data Science and Reproducibility\nTransport data science is\n\nA “discipline that allows you to transform raw data into understanding, insight, and knowledge” (Wickham, Cetinkaya-Rundel, and Grolemund 2023)\nWith reproducible and therefore falsifiable, scientific and scalable code.\nFor deeper understandings of and more evidence-based interventions in transport systems\n\nReproducibility is a continuous variable (Peng 2011)"
   },
   {
     "objectID": "slides.html#why-make-your-research-more-reproducible",
