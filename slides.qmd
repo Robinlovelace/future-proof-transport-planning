@@ -500,14 +500,14 @@ And as shown in the photo, they are also transport planning enthusiasts, underta
 
 ## What is Transport Data Science?
 
-### Simpler question: what is data science?
+### What is data science?
 
 ![](images/paste-88.png)
 
 A field "to optimize the service contracts and maintenance intervals for industrial products"?
 [@davenport2012]
 
-"Data Science = Statistics + Machine Learning” or "Statistics + Computing + Communication + Sociology + Management"?
+"Data Science = Statistics + Machine Learning” or "Statistics + Computing + Communication + Sociology + Management"? [@vybornova2024]
 
 ## Data Science and Reproducibility
 
@@ -584,7 +584,6 @@ Credit: Kit aged 3 (live demo [here](https://photos.lovelaces.org/share/JcIUmi6D
 
 :::::: columns
 ::: {.column width="70%"}
-
 ![](images/paste-82.png)
 
 <!-- ![](images/paste-83.png) -->
@@ -592,7 +591,6 @@ Credit: Kit aged 3 (live demo [here](https://photos.lovelaces.org/share/JcIUmi6D
 <!-- ![](images/paste-84.png) -->
 
 ![](images/paste-13.jpeg)
-
 :::
 
 :::: {.column width="30%"}
@@ -605,15 +603,17 @@ Credit: Kit aged 3 (live demo [here](https://photos.lovelaces.org/share/JcIUmi6D
 
 Source: "Designing an E-Bike City" [@ballo2024]
 
- <!-- [LTN tool](https://a-b-street.github.io/ltn),  -->
-
+<!-- [LTN tool](https://a-b-street.github.io/ltn),  -->
 :::
 ::::
 ::::::
 
-## Plug: The A/B Street low traffic design tool
+## Plug: The A/B Street [LTN tool a-b-street.github.io](https://a-b-street.github.io/ltn)
 
-<blockquote class="bluesky-embed" data-bluesky-uri="at://did:plc:scyxpltepxvut6akgwojidty/app.bsky.feed.post/3lonofp52it2i" data-bluesky-cid="bafyreieyyugmezr6fz4twdcuize6zgpm7xlie6qsgrfqrvrczyucytr2pi" data-bluesky-embed-color-mode="system">
+![](images/paste-89.png)
+
+```{=html}
+<!-- <blockquote class="bluesky-embed" data-bluesky-uri="at://did:plc:scyxpltepxvut6akgwojidty/app.bsky.feed.post/3lonofp52it2i" data-bluesky-cid="bafyreieyyugmezr6fz4twdcuize6zgpm7xlie6qsgrfqrvrczyucytr2pi" data-bluesky-embed-color-mode="system">
 
 <p lang>
 
@@ -626,8 +626,7 @@ See for yourself here: a-b-street.github.io/ltn`<br><br><a href="https://bsky.ap
 
 </blockquote>
 
-```{=html}
-<script async src="https://embed.bsky.app/static/embed.js" charset="utf-8"></script>
+<script async src="https://embed.bsky.app/static/embed.js" charset="utf-8"></script> -->
 ```
 
 <!-- Fosstodon embed failed: -->
