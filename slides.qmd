@@ -642,9 +642,28 @@ Image credit: "The crowd is the territory" [@anderson2018]
 
 ## Learn more and get involved
 
+::::: columns
+::: {.column width="70%"}
 ![](images/paste-86.png)
 
 ![](images/paste-87.png)
+:::
+
+::: {.column width="30%"}
+::: incremental
+- Sign up to get a GitHub account
+- Ask questions about datasets and digital tools
+- Develop and share ideas
+- Find bugs, build solutions
+:::
+:::
+:::::
+
+## A final plug
+
+<blockquote class="bluesky-embed" data-bluesky-uri="at://did:plc:scyxpltepxvut6akgwojidty/app.bsky.feed.post/3lokvankyhc2i" data-bluesky-cid="bafyreiac7w7c6rkdcsncm2abusracu23bt3gkyqklt2u5apixqjb5occxy" data-bluesky-embed-color-mode="system"><p lang="">Exciting news: tickets for the 2-day workshop I&#x27;m doing on Data Science for Transport Planning are now available from the University of Leeds. See details here: store.leeds.ac.uk/product-cata...<br><br><a href="https://bsky.app/profile/did:plc:scyxpltepxvut6akgwojidty/post/3lokvankyhc2i?ref_src=embed">[image or embed]</a></p>&mdash; Robin Lovelace (<a href="https://bsky.app/profile/did:plc:scyxpltepxvut6akgwojidty?ref_src=embed">@robinlovelace.bsky.social</a>) <a href="https://bsky.app/profile/did:plc:scyxpltepxvut6akgwojidty/post/3lokvankyhc2i?ref_src=embed">May 7, 2025 at 8:37 AM</a></blockquote><script async src="https://embed.bsky.app/static/embed.js" charset="utf-8"></script>
+
+# Thank you!
 
 ## References {.scrollable}
 
