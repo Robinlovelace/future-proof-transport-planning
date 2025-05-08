@@ -583,23 +583,30 @@ Credit: Kit aged 3 (live demo [here](https://photos.lovelaces.org/share/JcIUmi6D
 ## Principles for future research and practice
 
 :::::: columns
-::: {.column width="60%"}
-![](images/paste-82.png) ![](images/paste-83.png) \<
-!-- ![](images/paste-84.png) -
--\>
+::: {.column width="70%"}
+
+![](images/paste-82.png)
+
+<!-- ![](images/paste-83.png) -->
+
+<!-- ![](images/paste-84.png) -->
 
 ![](images/paste-13.jpeg)
 
-Sources: RoadRunner, A/B Street's [LTN tool](https://a-b-street.github.io/ltn), "Designing an E-Bike City" [@ballo2024]
 :::
 
-:::: {.column width="40%"}
+:::: {.column width="30%"}
 ::: incremental
 -   Faster
 -   More gamified/responsive/accessible
 -   More open/reproducible
 -   Higher resolution
 -   Bolder
+
+Source: "Designing an E-Bike City" [@ballo2024]
+
+ <!-- [LTN tool](https://a-b-street.github.io/ltn),  -->
+
 :::
 ::::
 ::::::
