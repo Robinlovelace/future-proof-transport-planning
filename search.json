@@ -434,11 +434,53 @@
     "text": "From open source to open access\n\n\n\n“In essence ‘open access’ goes beyond ‘open source’ in that users are not only given the option of viewing (potentially indecipherable) source code, but are encouraged to do so, with measures taken in the software itself, and the community that builds it, to make it more user-friendly.””\nSource: (Lovelace, Parkin, and Cohen 2020)"
   },
   {
+    "objectID": "slides.html#principles-for-future-research-and-practice",
+    "href": "slides.html#principles-for-future-research-and-practice",
+    "title": "Data Science for Future-Proof Transport Planning",
+    "section": "Principles for future research and practice",
+    "text": "Principles for future research and practice\n\n\n  &lt; !–  –&gt;\n\nSources: RoadRunner, A/B Street’s LTN tool, “Designing an E-Bike City” (Ballo, Raubal, and Axhausen 2024)\n\n\n\nFaster\nMore gamified/responsive/accessible\nMore open/reproducible\nHigher resolution\nBolder"
+  },
+  {
+    "objectID": "slides.html#plug-the-ab-street-low-traffic-design-tool",
+    "href": "slides.html#plug-the-ab-street-low-traffic-design-tool",
+    "title": "Data Science for Future-Proof Transport Planning",
+    "section": "Plug: The A/B Street low traffic design tool",
+    "text": "Plug: The A/B Street low traffic design tool\n\n\nIt’s been many months since I last tried out the Low Traffic Neighbourhood (LTN) design tool developed by Dustin Carlino, and I’m blown away, it’s on another level 🤯 Responsive, informative, intuitive, accessible, fully open. See for yourself here: a-b-street.github.io/ltn\n\n— Robin Lovelace ((robinlovelace.bsky.social?))"
+  },
+  {
+    "objectID": "slides.html#plug-kay-axhausens-upcoming-talk-on-modelling-radical-change",
+    "href": "slides.html#plug-kay-axhausens-upcoming-talk-on-modelling-radical-change",
+    "title": "Data Science for Future-Proof Transport Planning",
+    "section": "Plug: Kay Axhausen’s upcoming talk on “modelling radical change”",
+    "text": "Plug: Kay Axhausen’s upcoming talk on “modelling radical change”\nSource: ticketsource.com"
+  },
+  {
+    "objectID": "slides.html#idea-1-activecount",
+    "href": "slides.html#idea-1-activecount",
+    "title": "Data Science for Future-Proof Transport Planning",
+    "section": "Idea 1: ActiveCount",
+    "text": "Idea 1: ActiveCount\n\nSource: telraam.net"
+  },
+  {
+    "objectID": "slides.html#idea-2-schoolroutes",
+    "href": "slides.html#idea-2-schoolroutes",
+    "title": "Data Science for Future-Proof Transport Planning",
+    "section": "Idea 2: SchoolRoutes",
+    "text": "Idea 2: SchoolRoutes"
+  },
+  {
+    "objectID": "slides.html#idea-3-netgen",
+    "href": "slides.html#idea-3-netgen",
+    "title": "Data Science for Future-Proof Transport Planning",
+    "section": "Idea 3: NetGen",
+    "text": "Idea 3: NetGen\n\nImage credit: “The crowd is the territory” (Anderson et al. 2018)"
+  },
+  {
     "objectID": "slides.html#references",
     "href": "slides.html#references",
     "title": "Data Science for Future-Proof Transport Planning",
     "section": "References",
-    "text": "References\n\n\nBotta, Federico, Robin Lovelace, Laura Gilbert, and Arthur Turrell. 2024. “Packaging Code and Data for Reproducible Research: A Case Study of Journey Time Statistics.” Environment and Planning B: Urban Analytics and City Science 52 (4): 1002–13. https://doi.org/10.1177/23998083241267331.\n\n\nCrawford, F., and R. Lovelace. 2015. “The Benefits of Getting England Cycling.” http://www.ctc.org.uk/sites/default/files/1501_fcrawford-rlovelace_economic-cycle-reformatted.pdf.\n\n\nLovelace, Robin. 2016. “Mapping Out the Future of Cycling.” Get Britain Cycling 5: 2224. http://eprints.whiterose.ac.uk/100080/.\n\n\nLovelace, Robin, M Birkin, Joseph Talbot, and Malcolm Morgan. 2023. “Cycle Network Policy, Planning and Investment Transformed by the Propensity to Cycle Tool.” https://results2021.ref.ac.uk/impact/847d1191-7f25-46ba-a399-b481125edc8f?page=1.\n\n\nLovelace, Robin, Anna Goodman, Rachel Aldred, Nikolai Berkoff, Ali Abbas, and James Woodcock. 2017. “The Propensity to Cycle Tool: An Open Source Online System for Sustainable Transport Planning.” Journal of Transport and Land Use 10 (1). https://doi.org/10.5198/jtlu.2016.862.\n\n\nLovelace, Robin, Nick Malleson, Kirk Harland, and Mark Birkin. 2014. “Geotagged Tweets to Inform a Spatial Interaction Model: A Case Study of Museums.” https://doi.org/10.48550/ARXIV.1403.5118.\n\n\nLovelace, Robin, John Parkin, and Tom Cohen. 2020. “Open Access Transport Models: A Leverage Point in Sustainable Transport Planning.” Transport Policy 97 (October): 47–54. https://doi.org/10.1016/j.tranpol.2020.06.015.\n\n\nMacKay, David J C. 2009. Sustainable Energy Without the Hot Air. Cambridge: UIT.\n\n\nPeng, Roger D. 2011. “Reproducible Research in Computational Science.” Science (New York, N.y.) 334 (6060): 1226–27. https://doi.org/10.1126/science.1213847.\n\n\nRaff, Edward. 2023. “Does the Market of Citations Reward Reproducible Work?” In, 8996. ACM REP ’23. New York, NY, USA: Association for Computing Machinery. https://doi.org/10.1145/3589806.3600041."
+    "text": "References\n\n\nAnderson, Jennings, Robert Soden, Brian Keegan, Leysia Palen, and Kenneth M. Anderson. 2018. “The Crowd Is the Territory: Assessing Quality in Peer-Produced Spatial Data During Disasters.” International Journal of HumanComputer Interaction 34 (4): 295–310. https://doi.org/10.1080/10447318.2018.1427828.\n\n\nBallo, Lukas, Martin Raubal, and Kay W. Axhausen. 2024. “Designing an E-Bike City: An Automated Process for Network-Wide Multimodal Road Space Reallocation.” Journal of Cycling and Micromobility Research 2 (December): 100048. https://doi.org/10.1016/j.jcmr.2024.100048.\n\n\nBotta, Federico, Robin Lovelace, Laura Gilbert, and Arthur Turrell. 2024. “Packaging Code and Data for Reproducible Research: A Case Study of Journey Time Statistics.” Environment and Planning B: Urban Analytics and City Science 52 (4): 1002–13. https://doi.org/10.1177/23998083241267331.\n\n\nCrawford, F., and R. Lovelace. 2015. “The Benefits of Getting England Cycling.” http://www.ctc.org.uk/sites/default/files/1501_fcrawford-rlovelace_economic-cycle-reformatted.pdf.\n\n\nLovelace, Robin. 2016. “Mapping Out the Future of Cycling.” Get Britain Cycling 5: 2224. http://eprints.whiterose.ac.uk/100080/.\n\n\nLovelace, Robin, M Birkin, Joseph Talbot, and Malcolm Morgan. 2023. “Cycle Network Policy, Planning and Investment Transformed by the Propensity to Cycle Tool.” https://results2021.ref.ac.uk/impact/847d1191-7f25-46ba-a399-b481125edc8f?page=1.\n\n\nLovelace, Robin, Anna Goodman, Rachel Aldred, Nikolai Berkoff, Ali Abbas, and James Woodcock. 2017. “The Propensity to Cycle Tool: An Open Source Online System for Sustainable Transport Planning.” Journal of Transport and Land Use 10 (1). https://doi.org/10.5198/jtlu.2016.862.\n\n\nLovelace, Robin, Nick Malleson, Kirk Harland, and Mark Birkin. 2014. “Geotagged Tweets to Inform a Spatial Interaction Model: A Case Study of Museums.” https://doi.org/10.48550/ARXIV.1403.5118.\n\n\nLovelace, Robin, John Parkin, and Tom Cohen. 2020. “Open Access Transport Models: A Leverage Point in Sustainable Transport Planning.” Transport Policy 97 (October): 47–54. https://doi.org/10.1016/j.tranpol.2020.06.015.\n\n\nMacKay, David J C. 2009. Sustainable Energy Without the Hot Air. Cambridge: UIT.\n\n\nPeng, Roger D. 2011. “Reproducible Research in Computational Science.” Science (New York, N.y.) 334 (6060): 1226–27. https://doi.org/10.1126/science.1213847.\n\n\nRaff, Edward. 2023. “Does the Market of Citations Reward Reproducible Work?” In, 8996. ACM REP ’23. New York, NY, USA: Association for Computing Machinery. https://doi.org/10.1145/3589806.3600041."
   },
   {
     "objectID": "index.html",
