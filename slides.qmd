@@ -500,13 +500,24 @@ And as shown in the photo, they are also transport planning enthusiasts, underta
 
 ## What is Transport Data Science?
 
-## (I-)Reproducibility
+### Simpler question: what is data science?
+
+![](images/paste-88.png)
+
+A field "to optimize the service contracts and maintenance intervals for industrial products"?
+[@davenport2012]
+
+"Data Science = Statistics + Machine Learning” or "Statistics + Computing + Communication + Sociology + Management"?
+
+## Data Science and Reproducibility
+
+A "discipline that allows you to transform raw data into understanding, insight, and knowledge" [@wickham2023]
+
+With reproducible and therefore falsifiable, scientific and scalable code.
 
 Reproducibility is a continuous variable [@peng2011]
 
 ![](images/paste-18.png)
-
-# Reproducible research
 
 ## Why make your research (more) reproducible?
 
@@ -545,9 +556,7 @@ Source: @raff2023
 
 ## Example of fully reproducible research
 
-## Building/linking-up-with communities
-
-The package has been onboarded to rOpenSpain public benefit data science community (see [ropenspain.github.io](https://ropenspain.github.io/spanishoddata/))
+`spanishoddata` paper and associated package which is now part of rOpenSpain public benefit data science community (see [ropenspain.github.io](https://ropenspain.github.io/spanishoddata/))
 
 ![](images/paste-13.png)
 
@@ -642,26 +651,41 @@ Image credit: "The crowd is the territory" [@anderson2018]
 
 ## Learn more and get involved
 
-::::: columns
+:::::: columns
 ::: {.column width="70%"}
 ![](images/paste-86.png)
 
 ![](images/paste-87.png)
 :::
 
-::: {.column width="30%"}
+:::: {.column width="30%"}
 ::: incremental
-- Sign up to get a GitHub account
-- Ask questions about datasets and digital tools
-- Develop and share ideas
-- Find bugs, build solutions
+-   Sign up to get a GitHub account
+-   Ask questions about datasets and digital tools
+-   Develop and share ideas
+-   Find bugs, build solutions
 :::
-:::
-:::::
+::::
+::::::
 
 ## A final plug: [2 day workshop 18th-19th September](https://store.leeds.ac.uk/product-catalogue/environment/transport-studies/short-courses/0925dstp2-data-science-for-transport-planning)
 
-<blockquote class="bluesky-embed" data-bluesky-uri="at://did:plc:scyxpltepxvut6akgwojidty/app.bsky.feed.post/3lokvankyhc2i" data-bluesky-cid="bafyreiac7w7c6rkdcsncm2abusracu23bt3gkyqklt2u5apixqjb5occxy" data-bluesky-embed-color-mode="system"><p lang="">Exciting news: tickets for the 2-day workshop I&#x27;m doing on Data Science for Transport Planning are now available from the University of Leeds. See details here: store.leeds.ac.uk/product-cata...<br><br><a href="https://bsky.app/profile/did:plc:scyxpltepxvut6akgwojidty/post/3lokvankyhc2i?ref_src=embed">[image or embed]</a></p>&mdash; Robin Lovelace (<a href="https://bsky.app/profile/did:plc:scyxpltepxvut6akgwojidty?ref_src=embed">@robinlovelace.bsky.social</a>) <a href="https://bsky.app/profile/did:plc:scyxpltepxvut6akgwojidty/post/3lokvankyhc2i?ref_src=embed">May 7, 2025 at 8:37 AM</a></blockquote><script async src="https://embed.bsky.app/static/embed.js" charset="utf-8"></script>
+<blockquote class="bluesky-embed" data-bluesky-uri="at://did:plc:scyxpltepxvut6akgwojidty/app.bsky.feed.post/3lokvankyhc2i" data-bluesky-cid="bafyreiac7w7c6rkdcsncm2abusracu23bt3gkyqklt2u5apixqjb5occxy" data-bluesky-embed-color-mode="system">
+
+<p lang>
+
+Exciting news: tickets for the 2-day workshop I'm doing on Data Science for Transport Planning are now available from the University of Leeds.
+See details here: store.leeds.ac.uk/product-cata...<br><br><a href="https://bsky.app/profile/did:plc:scyxpltepxvut6akgwojidty/post/3lokvankyhc2i?ref_src=embed">\[image or embed\]</a>
+
+</p>
+
+— Robin Lovelace (<a href="https://bsky.app/profile/did:plc:scyxpltepxvut6akgwojidty?ref_src=embed">@robinlovelace.bsky.social</a>) <a href="https://bsky.app/profile/did:plc:scyxpltepxvut6akgwojidty/post/3lokvankyhc2i?ref_src=embed">May 7, 2025 at 8:37 AM</a>
+
+</blockquote>
+
+```{=html}
+<script async src="https://embed.bsky.app/static/embed.js" charset="utf-8"></script>
+```
 
 # Thank you!
 
