@@ -507,7 +507,7 @@ And as shown in the photo, they are also transport planning enthusiasts, underta
 A field "to optimize the service contracts and maintenance intervals for industrial products"?
 [@davenport2012]
 
-"Data Science = Statistics + Machine Learning” or "Statistics + Computing + Communication + Sociology + Management"? [@vybornova2024]
+"Data Science = Statistics + Machine Learning” or "Statistics + Computing + Communication + Sociology + Management"? ([Vybornova, 2025](https://en.itu.dk/Research/PhD-Programme/PhD-Defences/PhD-Defences-2025/March/Anastassia-Vybornova))
 
 ## Data Science and Reproducibility
 
