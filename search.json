@@ -389,7 +389,7 @@
     "href": "slides.html#what-is-transport-data-science",
     "title": "Data Science for Future-Proof Transport Planning",
     "section": "What is Transport Data Science?",
-    "text": "What is Transport Data Science?\nSimpler question: what is data science?\n\nA field “to optimize the service contracts and maintenance intervals for industrial products”? (Davenport and Patil 2012)\n“Data Science = Statistics + Machine Learning” or “Statistics + Computing + Communication + Sociology + Management”?"
+    "text": "What is Transport Data Science?\nWhat is data science?\n\nA field “to optimize the service contracts and maintenance intervals for industrial products”? (Davenport and Patil 2012)\n“Data Science = Statistics + Machine Learning” or “Statistics + Computing + Communication + Sociology + Management”? (Vybornova, 2025)"
   },
   {
     "objectID": "slides.html#data-science-and-reproducibility",
@@ -434,11 +434,11 @@
     "text": "Principles for future research and practice\n\n\n\n\n\n\n\n\n\nFaster\nMore gamified/responsive/accessible\nMore open/reproducible\nHigher resolution\nBolder\n\nSource: “Designing an E-Bike City” (Ballo, Raubal, and Axhausen 2024)"
   },
   {
-    "objectID": "slides.html#plug-the-ab-street-low-traffic-design-tool",
-    "href": "slides.html#plug-the-ab-street-low-traffic-design-tool",
+    "objectID": "slides.html#plug-the-ab-street-ltn-tool-a-b-street.github.io",
+    "href": "slides.html#plug-the-ab-street-ltn-tool-a-b-street.github.io",
     "title": "Data Science for Future-Proof Transport Planning",
-    "section": "Plug: The A/B Street low traffic design tool",
-    "text": "Plug: The A/B Street low traffic design tool\n\n\nIt’s been many months since I last tried out the Low Traffic Neighbourhood (LTN) design tool developed by Dustin Carlino, and I’m blown away, it’s on another level 🤯 Responsive, informative, intuitive, accessible, fully open. See for yourself here: a-b-street.github.io/ltn\n\n— Robin Lovelace ((robinlovelace.bsky.social?))"
+    "section": "Plug: The A/B Street LTN tool a-b-street.github.io",
+    "text": "Plug: The A/B Street LTN tool a-b-street.github.io"
   },
   {
     "objectID": "slides.html#plug-kay-axhausens-upcoming-talk-at-its",
