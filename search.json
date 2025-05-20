@@ -266,6 +266,13 @@
     "text": "Contents\nBackground\n\nMy journey\n\nCurrent work\n\nTransport Data Science\nBiclar\nNetwork Planning Tool\n\nFuture ideas"
   },
   {
+    "objectID": "st-andrews.html#abstract",
+    "href": "st-andrews.html#abstract",
+    "title": "Future-Proof Transport Planning",
+    "section": "Abstract",
+    "text": "Abstract\nTransport planning has always been a complex and multi-disciplinary enterprise requiring wide-ranging skills and methods. Like many fields of research exposed to the data revolution, it is also fast-moving, meaning that it’s hard to know how to keep the work future-proof. This talk will explore the challenges and opportunities of future-proofing transport planning, focusing on the role of data science and open source software. It will draw my experience developing and deploying tools such as the Propensity to Cycle Tool for England and Wales (publicly available at www.pct.bike), the Network Planning Tool for Scotland (publicly available at www.npt.scot) and the Biclar tool for Portugal (publicly available at biclar.tmlmobilidade.pt. I will also outline some tools and techniques we have developed at the University of Leeds for working with origin-destination data"
+  },
+  {
     "objectID": "st-andrews.html#my-journey",
     "href": "st-andrews.html#my-journey",
     "title": "Future-Proof Transport Planning",
