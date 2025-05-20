@@ -244,7 +244,7 @@ Photo taken: February 2021, Sugarwell Hill, Leeds
 ------------------------------------------------------------------------
 
 ::: {style="font-size: 0.8em;"}
-**First proper job** (🙏Mark Birkin) and first Leeds-based paper [@lovelace2014]
+**First proper job** (🙏Mark Birkin) and first Leeds-based ~~paper~~[preprint](https://doi.org/10.48550/ARXIV.1403.5118) [@lovelace2014]
 :::
 
 ::::: columns
@@ -388,29 +388,6 @@ And as shown in the photo, they are also transport planning enthusiasts, underta
 ------------------------------------------------------------------------
 
 ::::: columns
-::: {.column width="60%"}
-![](images/paste-7.jpeg)
-:::
-
-::: {.column width="40%"}
-### Massive thanks to
-
-### Katy
-
-### Kit
-
-### Rosa
-:::
-:::::
-
-::: notes
--   A big part of my life now is my family, and I want to say thank you to my wife Katy and my kids Kit (3 years old) and Rosa (six months old) for their support and love. I couldn't do this without them. I have much better work-life balance now than I did when I was a PhD student
--   Family is the foundation on which many good things build.
-:::
-
-------------------------------------------------------------------------
-
-::::: columns
 ::: {.column width="40%"}
 ### My current role
 
@@ -439,13 +416,11 @@ A field "to optimize the service contracts and maintenance intervals for industr
 
 ## Transport Data Science and Reproducibility
 
-Transport data science is
+Transport data science is a discipline that:
 
--   A "discipline that allows you to transform raw data into understanding, insight, and knowledge" [@wickham2023]
-
+-   "transform[s] raw data into understanding, insight, and knowledge" [@wickham2023]
 -   With reproducible and therefore falsifiable, scientific and scalable code.
-
--   For deeper understandings of and more evidence-based interventions in transport systems
+-   For better understanding of and interventions in transport systems
 
 Reproducibility is a continuous variable [@peng2011]
 
