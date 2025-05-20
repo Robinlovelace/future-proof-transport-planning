@@ -389,7 +389,7 @@
     "href": "st-andrews.html#transport-data-science-and-reproducibility",
     "title": "Future-Proof Transport Planning",
     "section": "Transport Data Science and Reproducibility",
-    "text": "Transport Data Science and Reproducibility\nTransport data science is\n\nA “discipline that allows you to transform raw data into understanding, insight, and knowledge” (Wickham, Cetinkaya-Rundel, and Grolemund 2023)\nWith reproducible and therefore falsifiable, scientific and scalable code.\nFor deeper understandings of and more evidence-based interventions in transport systems\n\nReproducibility is a continuous variable (Peng 2011)"
+    "text": "Transport Data Science and Reproducibility\nTransport data science is a discipline that:\n\n“transform[s] raw data into understanding, insight, and knowledge” (Wickham, Cetinkaya-Rundel, and Grolemund 2023)\nWith reproducible and therefore falsifiable, scientific and scalable code.\nFor better understanding of and interventions in transport systems\n\nReproducibility is a continuous variable (Peng 2011)"
   },
   {
     "objectID": "st-andrews.html#why-make-your-research-more-reproducible",
