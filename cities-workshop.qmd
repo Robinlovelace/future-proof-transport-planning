@@ -8,7 +8,7 @@ html-math-method:
   method: mathjax
   url: "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
 author:
-  - name: <a href="">Cleaner and Healthier Cities Workshop</a><br>Robin Lovelace
+  - name: <a href="https://its-uol-yy.notion.site/Sustainable-Transport-and-Planning-for-Cleaner-and-Healthier-Cities-Workshop-25d33f989ee8805d988cd8a5d5a3753d">Cleaner and Healthier Cities Workshop</a><br>Robin Lovelace
     orcid: 0000-0001-5679-6536
     email: r.lovelace@leeds.ac.uk
     affiliations: University of Leeds
