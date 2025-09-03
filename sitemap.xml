@@ -1,27 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://Robinlovelace.github.io/future-proof-transport-planning/slides-glasgow.html</loc>
-    <lastmod>2025-05-21T08:17:06.492Z</lastmod>
-  </url>
-  <url>
-    <loc>https://Robinlovelace.github.io/future-proof-transport-planning/infrastructure-classification.html</loc>
-    <lastmod>2025-05-21T08:17:06.489Z</lastmod>
-  </url>
-  <url>
     <loc>https://Robinlovelace.github.io/future-proof-transport-planning/paper.html</loc>
-    <lastmod>2025-05-21T08:17:06.491Z</lastmod>
-  </url>
-  <url>
-    <loc>https://Robinlovelace.github.io/future-proof-transport-planning/st-andrews.html</loc>
-    <lastmod>2025-05-21T08:17:06.492Z</lastmod>
-  </url>
-  <url>
-    <loc>https://Robinlovelace.github.io/future-proof-transport-planning/index.html</loc>
-    <lastmod>2025-05-21T08:17:06.489Z</lastmod>
+    <lastmod>2025-09-03T09:40:58.086Z</lastmod>
   </url>
   <url>
     <loc>https://Robinlovelace.github.io/future-proof-transport-planning/slides.html</loc>
-    <lastmod>2025-05-21T08:17:06.492Z</lastmod>
+    <lastmod>2025-09-03T09:40:58.087Z</lastmod>
+  </url>
+  <url>
+    <loc>https://Robinlovelace.github.io/future-proof-transport-planning/cities-workshop.html</loc>
+    <lastmod>2025-09-03T09:40:57.857Z</lastmod>
+  </url>
+  <url>
+    <loc>https://Robinlovelace.github.io/future-proof-transport-planning/st-andrews.html</loc>
+    <lastmod>2025-09-03T09:40:58.087Z</lastmod>
+  </url>
+  <url>
+    <loc>https://Robinlovelace.github.io/future-proof-transport-planning/infrastructure-classification.html</loc>
+    <lastmod>2025-09-03T09:40:58.084Z</lastmod>
+  </url>
+  <url>
+    <loc>https://Robinlovelace.github.io/future-proof-transport-planning/slides-glasgow.html</loc>
+    <lastmod>2025-09-03T09:40:58.087Z</lastmod>
+  </url>
+  <url>
+    <loc>https://Robinlovelace.github.io/future-proof-transport-planning/index.html</loc>
+    <lastmod>2025-09-03T09:40:58.083Z</lastmod>
   </url>
 </urlset>
