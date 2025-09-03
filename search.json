@@ -242,7 +242,7 @@
     "href": "cities-workshop.html#contents",
     "title": "Future-Proof Transport Planning",
     "section": "Contents",
-    "text": "Contents\nBackground\n\nMy journey\n\nCurrent work\n\nTransport Data Science\nBiclar\nNetwork Planning Tool\n\nFuture ideas"
+    "text": "Contents\nCode to reproduce these slides: github.com/robinlovelace\nBackground\n\nMy journey\n\nCurrent work\n\nTransport Data Science\nBiclar\nNetwork Planning Tool\n\nFuture ideas"
   },
   {
     "objectID": "cities-workshop.html#my-journey",
@@ -956,6 +956,6 @@
     "href": "index.html",
     "title": "Future proof transport planning",
     "section": "",
-    "text": "Code and slides for my inaugural lecture on future proof transport planning.\nSee more info in link below:\n\nBlurb and introduction\nSlides and website\nTemplate repo on which this builds"
+    "text": "Code and slides for my inaugural lecture on future proof transport planning.\nSee more info in link below:\n\nBlurb and introduction\nSlides and website\nTemplate repo on which this builds\nSource code: github.com/robinlovelace"
   }
 ]
