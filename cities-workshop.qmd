@@ -8,7 +8,7 @@ html-math-method:
   method: mathjax
   url: "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
 author:
-  - name: <a href="https://www.robinlovelace.net/talk/seminar-in-st-andrews-future-proof-transport-planning/">Cleaner and Healthier Cities Workshop</a><br>Robin Lovelace
+  - name: <a href="">Cleaner and Healthier Cities Workshop</a><br>Robin Lovelace
     orcid: 0000-0001-5679-6536
     email: r.lovelace@leeds.ac.uk
     affiliations: University of Leeds
@@ -29,6 +29,8 @@ tmap_mode("view")
 ```
 
 ## Contents
+
+Code to reproduce these [slides: github.com/robinlovelace](https://robinlovelace.github.io/future-proof-transport-planning/cities-workshop.html#/how-to-get-started-with-open-source)
 
 **Background**
 
