@@ -206,9 +206,11 @@ Blog post in [The Oil Drum](http://theoildrum.com/node/5976)
 
 <!-- ![](images/paste-41.png) -->
 
+```{=html}
 <!-- ## Engineers Without Borders (EWB)
 
 ![](images/paste-47.png) -->
+```
 
 # Wind turbine group
 
@@ -310,11 +312,13 @@ First Propensity to Cycle Tool paper published in an academic journal [@lovelace
 
 Source: leeds.ac.uk front page, 2017-03-17
 
+```{=html}
 <!-- ## 4\* Research Excellence Framework (REF) case study
 
 ![](images/paste-72.png)
 
 Source: [results2021.ref.ac.uk](https://results2021.ref.ac.uk/impact/847d1191-7f25-46ba-a399-b481125edc8f?page=1) [@lovelace2023] -->
+```
 
 ## Internship in No. 10 Downing Street
 
@@ -393,8 +397,7 @@ And as shown in the photo, they are also transport planning enthusiasts, underta
 -   Professor of Transport Data Science
 -   Focus on high-impact research
 -   Teaching
--   Grant funding
-<!-- -   Trying to succeed in academia without retreating up an "ivory tower", focus on impact, build a community -->
+-   Grant funding <!-- -   Trying to succeed in academia without retreating up an "ivory tower", focus on impact, build a community -->
 :::
 
 ::: {.column width="60%"}
@@ -444,6 +447,7 @@ Source: @raff2023
 ::::
 ::::::
 
+```{=html}
 <!-- ## Why *not* make your research reproducible?
 
 ::: {.column width="20%"}
@@ -459,6 +463,7 @@ Source: @raff2023
 -   Someone might use it in unethical ways
 -   Someone might "steal" the work
 ::: -->
+```
 
 ## Example of fully reproducible research
 
@@ -484,7 +489,7 @@ Source: [www.npw.scot](https://www.npw.scot/)
 
 ::::: columns
 ::: {.column width="40%"}
-"In essence ‘open access’ goes beyond ‘open source’ in that users are ... are encouraged [view and edit the source code], with measures taken in the software itself, and the community that builds it, to make it more user-friendly.""
+"In essence ‘open access’ goes beyond ‘open source’ in that users are ... are encouraged \[view and edit the source code\], with measures taken in the software itself, and the community that builds it, to make it more user-friendly.""
 
 Source: [@lovelace2020]
 :::
@@ -493,6 +498,19 @@ Source: [@lovelace2020]
 ![](images/paste-10.png)
 :::
 :::::
+
+## Open access research in ITS Leeds
+
+We've put these ideas into practice, see [github.com/itsleeds](https://github.com/itsleeds/)
+
+![](images/paste-92.png)
+
+## How to get started with open source?
+
+-   Identify a modular part of your work that could be useful for others <!-- https://github.com/juanfonsecaLS1/azuremapsr -->
+-   Follow 'Unix philosophy' and "do one thing well". Source: [github.com/juanfonsecaLS1](https://github.com/juanfonsecaLS1/azuremapsr)
+
+![](images/paste-94.png)
 
 # FUTURE {.center background-image="images/paste-78.png" background-opacity="0.5"}
 
@@ -586,5 +604,3 @@ See details here: store.leeds.ac.uk/product-cata...<br><br><a href="https://bsky
 
 ::: {#refs}
 :::
-
-
